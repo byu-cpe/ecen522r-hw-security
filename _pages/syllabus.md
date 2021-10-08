@@ -7,44 +7,45 @@ icon: fas fa-chalkboard-teacher
 ---
 
 
+## Instructor 
+Prof. Jeff Goeders, 460G EB, email: jgoeders@byu.edu, Office hours: by appointment
 
-# General Guidelines
-This course has a very strong lab focus. All the interesting stuff happens in the lab. As such, lectures will typically only take place once or twice per week, as announced.
-<!-- Monday is the only day where attendance is mandatory. Other lectures will be announced as necessary during the semester.  -->
-Class lecture will be used to cover difficult concepts, introduce labs, and to answer questions.
+## Course Content
+In this course, we will study the entire VLSI CAD flow, including high-level synthesis, technology-dependent and independent optimization, partitioning, floorplanning and placement, and routing. For each stage, we will identify the problem to be solved, and discuss optimization algorithms to solve the problem. Some of these optimization algorithms include simulated annealing, dynamic programming, branch-and-bound, and various graph algorithms (eg. Shortest-path algorithms). There will be an emphasis on CAD algorithms targeting FPGA, but will also discuss CAD for custom chip design. Note that this course is not about the use of CAD tools; rather, it is about the optimization algorithms that are used in these tools.
 
-## Lectures and Attendance 
+## Prerequisites
+Good understanding of digital logic.  Solid programming skills, especially C/C++.  If you are unsure if you have the necessary experience, contact the instructor.
 
-### Late Policy 
-Labs pass off and code submission is due as indicated in learning suite. You lose 20% per day for each day either is late. Weekends do not count. The bottom cutoff is 20%.
-
+## Textbook
+There is no textbook; reading will be taken primarily from research papers.
 
 ### Sharing Source Code 
 Sharing your source code  is prohibited and is a violation of the Honor Code.  **This includes posting your lab code and solutions on a public website such as a public Github repository.**  You will be provided with a private Github repository to store your code.
-
-
-### Coding Standard 
-This class follows a [Coding Standard]({% link _other/coding_standard.md %}).  It is currently identical to the ECEn 330 standard.
-
-
-## Prerequisites
-
-ECEn 330 & ECEn 323
-
-## Textbook
-
-Linux Device Drivers, Third Edition. <https://lwn.net/Kernel/LDD3/>
 
 
 ## Grade Breakdown
 
 | Component                 | % of Grade    |
 |---------------------------|---------------|
-| Labs                      | 80            |
-| Midterm                   | 15            |
-| Quizzes                   | 5            |
+| Assignments (4)           | 55            |
+| Mini Lecture              | 10            |
+| Paper Reviews             | 10            |
+| Final Project             | 25            |
 
+### Assignments
+ There will be four assignments. In each assignment, you will implement one of the CAD algorithms discussed in class, and evaluate its performance.  These 
+assignments make up the largest part of your grade, and as such, are quite large.  Allow yourself plenty of time to complete them.  Assignments and due dates will be posted on the course website.
 
+### Paper Reviews and Mini-Lectures
+You will be asked to complete five paper reviews over the course of the semester.  In addition, each student will be expected to give a 20 minute lecture on a topic of their choosing (from a list that will be provided).  See the course website for more details.
+
+### Final Project
+Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See the course website for more details.
+
+There will be no final exam for the course.
+
+## Late Policy
+For assignments/exercises submitted late, the penalty will be 10% for each week late (rounding up), to a maximum of 30% deduction.  (Example: submitting 1 day late will result in a 10% penalty and 13 days late will result in a 20% penalty).  No assignments will be accepted after the last day of class.  This policy applies to assignments only.  The final project deliverables must be completed on time, or no credit will be given.
 
 ## Honor Code
 In keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university's expectation, and every instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.
