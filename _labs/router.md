@@ -3,7 +3,7 @@ layout: lab
 toc: true
 title: "Router"
 short_title: Router
-number: 2
+number: 1
 # repo: lab_graphs
 ---
 

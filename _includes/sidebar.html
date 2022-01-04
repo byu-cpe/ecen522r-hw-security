@@ -38,6 +38,19 @@
             {% endfor %}
         </div>
 
+        <div class="sidebar-heading">Exercises</div>
+        <div class="list-group list-group-flush">
+            {% for item in site.exercises %}
+            <a href="{% link {{ item.path }} %}"
+                class="list-item-normal list-group-item list-group-item-action bg-light sidebar-item">
+                <span class="badge badge-pill badge-dark-grey">{{ item.number }}</span>
+                {{ item.short_title | default: item.title }}
+
+            </a>
+            {% endfor %}
+        </div>
+
+
         <div class="sidebar-heading">Documentation</div>
 
         <div class="list-group list-group-flush">

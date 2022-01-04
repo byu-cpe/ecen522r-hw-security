@@ -1,14 +1,14 @@
 ---
 layout: page
 toc: false
-title: Mini Lecture
+title: Paper Discussion
 indent: 0
 number: 1
 ---
 
-An important part of your career is being able to read a paper, or technical document, summarize it, and present the important points to an audience.  You will each give one min-lecture during the semester.
+# Under Construction
 
-For the mini-lectures this semester we will present material covering the Xilinx MPSoC architecture.  The list of available topics is on Piazza: https://piazza.com/class/k55ha3jehk16lj?cid=36
+An important part of your career is being able to read a paper, or technical document, summarize it, and present the important points to an audience.  You will each give one min-lecture during the semester.
 
 Each mini-presentations should be about 25 minutes long.  You can use power-point slides,
 an overhead projector, or the white board, or a combination of all of these.

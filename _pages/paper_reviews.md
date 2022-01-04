@@ -9,7 +9,7 @@ order: 3
 ---
 
 ============
-An important part of this course is reading research papers.  There are two reasons for this: (1) only by reading resesarch papers will you thoroughly understand many of the algorithms and techniques that we will talk about in class and (2) reading research papers properly takes practice, and is an important skill to develop, especially for those of you that go on to a research career.  
+An important part of this course is reading research papers.  There are two reasons for this: (1) only by reading research papers will you thoroughly understand many of the algorithms and techniques that we will talk about in class and (2) reading research papers properly takes practice, and is an important skill to develop, especially for those of you that go on to a research career.  
 
 ===== Schedule =====
 <color red>Schedule will be posted here as the class proceeds.
