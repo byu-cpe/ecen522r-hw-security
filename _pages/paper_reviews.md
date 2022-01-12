@@ -18,14 +18,13 @@ An important part of this course is reading research papers.  There are two reas
 
 | # | Due Date | Paper | 
 | 1 | **Jan 20** | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
-| 2 |
+| 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
 | 3 |
 | 4 |
 | 5 | 
 
-<!--- [//]: # "| 2 | **Feb 12 ** | M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014. | http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf |"
 
-[//]: # "| 3 | ** Mar 9 ** | Jiantong Jiang et al., "Boyi: A Systematic Framework for Automatically Deciding theRight Execution Model of OpenCL Applications on FPGAs," FPGA, 2020. | https://dl.acm.org/doi/abs/10.1145/3373087.3375313 |"
+<!-- [//]: # "| 3 | ** Mar 9 ** | Jiantong Jiang et al., "Boyi: A Systematic Framework for Automatically Deciding theRight Execution Model of OpenCL Applications on FPGAs," FPGA, 2020. | https://dl.acm.org/doi/abs/10.1145/3373087.3375313 |" 
 
 [//]: # "| 4 | ** Apr 8 ** | Kristiyan Manev, Anuj Vaishnav, Dirk Koch, "Unexpected Diversity: Quantitative Memory Analysis for Zynq UltraScale+ Systems" | https://ieeexplore.ieee.org/abstract/document/8977835 | --->
 
@@ -46,6 +45,14 @@ Include the following in your paper review (in marked sections):
 Your review should be one page or less (normal fonts and margins).  Quality is more important than quantity.
 
 
-## Submission Instructions
+## Class Discussion
+
+For each of the paper reviews, we will have an [in-class discussion]({% link _other/paper_discussion.md %}).  Please come to class ready to discuss the paper.  If you are leading the class discussion, you don't have to submit a paper review that week. 
+
+## Submission Instructions & Late Policy
 See the `#paper_review` channel on Slack for submission links.
+
+Because we discuss the paper reviews as a class, no late submissions will be accepted.  Please make sure to get your paper reviews in on time!
+
+
 
