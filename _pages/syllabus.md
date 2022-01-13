@@ -8,10 +8,10 @@ icon: fas fa-chalkboard-teacher
 
 
 ## Instructor 
-Prof. Jeff Goeders, 460G EB, email: jgoeders@byu.edu, Office hours: by appointment
+Prof. Jeff Goeders, 450I EB, email: jgoeders@byu.edu, Office hours: by appointment
 
 ## Course Content
-In this course, we will study the entire VLSI CAD flow, including high-level synthesis, technology-dependent and independent optimization, partitioning, floorplanning and placement, and routing. For each stage, we will identify the problem to be solved, and discuss optimization algorithms to solve the problem. Some of these optimization algorithms include simulated annealing, dynamic programming, branch-and-bound, and various graph algorithms (eg. Shortest-path algorithms). There will be an emphasis on CAD algorithms targeting FPGA, but will also discuss CAD for custom chip design. Note that this course is not about the use of CAD tools; rather, it is about the optimization algorithms that are used in these tools.
+In this course, we will study the entire FPGA/VLSI CAD flow, including high-level synthesis, technology-dependent and independent optimization, partitioning, floorplanning and placement, and routing. For each stage, we will identify the problem to be solved, and discuss optimization algorithms to solve the problem. Some of these optimization algorithms include simulated annealing, dynamic programming, branch-and-bound, and various graph algorithms (eg. Shortest-path algorithms). There will be an emphasis on CAD algorithms targeting FPGA, but will also discuss CAD for custom chip design. Note that this course is not about the use of CAD tools; rather, it is about the optimization algorithms that are used in these tools.  We will also cover current research in the area, and several lectures on student selected topics.
 
 ## Prerequisites
 Good understanding of digital logic.  Solid programming skills, especially C/C++.  If you are unsure if you have the necessary experience, contact the instructor.
@@ -27,25 +27,30 @@ Sharing your source code  is prohibited and is a violation of the Honor Code.  *
 
 | Component                 | % of Grade    |
 |---------------------------|---------------|
-| Assignments (4)           | 55            |
-| Mini Lecture              | 10            |
-| Paper Reviews             | 10            |
+| Lab Programming Assignments (3)   | 40            |
+| Lab Exercises (2)         | 10            |
+| Paper Reviews             | 15            |
+| Leading Class Paper Discussion              | 10            |
 | Final Project             | 25            |
 
-### Assignments
- There will be four assignments. In each assignment, you will implement one of the CAD algorithms discussed in class, and evaluate its performance.  These 
+### Programming Assignments
+ There will be three assignments. In each assignment, you will implement one of the CAD algorithms discussed in class, and evaluate its performance.  These 
 assignments make up the largest part of your grade, and as such, are quite large.  Allow yourself plenty of time to complete them.  Assignments and due dates will be posted on the course website.
 
-### Paper Reviews and Mini-Lectures
-You will be asked to complete five paper reviews over the course of the semester.  In addition, each student will be expected to give a 20 minute lecture on a topic of their choosing (from a list that will be provided).  See the course website for more details.
+### Lab Exercises
+There will be two guided exercises that will give you experience using open-source CAD tools.  These will be much smaller than the programming assignments.
+
+### Paper Reviews & Class Paper Discussion
+You will be asked to complete several paper reviews over the course of the semester.  In addition, each student will lead a class discussion on one of the papers. See [Paper Reviews]({% link _pages/paper_reviews.md %}) and  [Paper Discussion]({% link _other/paper_discussion.md %}) for more details.
 
 ### Final Project
-Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See the course website for more details.
+Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See [Final Project]({% link _other/final_project.md %}) for more details.
 
 There will be no final exam for the course.
 
 ## Late Policy
 For assignments/exercises submitted late, the penalty will be 10% for each week late (rounding up), to a maximum of 30% deduction.  (Example: submitting 1 day late will result in a 10% penalty and 13 days late will result in a 20% penalty).  No assignments will be accepted after the last day of class.  This policy applies to assignments only.  The final project deliverables must be completed on time, or no credit will be given.
+
 
 ## Honor Code
 In keeping with the principles of the BYU Honor Code, students are expected to be honest in all of their academic work. Academic honesty means, most fundamentally, that any work you present as your own must in fact be your own work and not that of another. Violations of this principle may result in a failing grade in the course and additional disciplinary action by the university. Students are also expected to adhere to the Dress and Grooming Standards. Adherence demonstrates respect for yourself and others and ensures an effective learning and working environment. It is the university's expectation, and every instructor's expectation in class, that each student will abide by all Honor Code standards. Please call the Honor Code Office at 422-2847 if you have questions about those standards.

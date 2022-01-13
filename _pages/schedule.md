@@ -7,22 +7,21 @@ icon: fa fa-calendar
 order: 2
 ---
 
-| Week # | Date of Monday |  Monday  |  Tuesday  |  Wednesday  |  Thursday  |  Friday  |
-|--------|----------------|----------|-----------|-------------|------------|----------|
-|1| Jan 6  |  Introduction  | |  Routing, FPGA Routing  |
-|2| Jan 13 |  Routing  | |  <color #ed1c24>NO CLASS</color>  |
-|3| Jan 20 |   <color #ed1c24>NO CLASS</color> \\ <color #00a2e8><del>Asst 1 Due 11:59pm</del></color>  | |  Placement  | | <color #00a2e8>Asst 1 Due 11:59pm</color> |
-|4| Jan 27 |  Placement  | |  Placement \\ Assignment 2 Overview  | 
-|5| Feb 3 |  <color #ed1c24>NO CLASS</color>  | |  Paper Discussion \\ Partitioning  |
-|6| Feb 10 |  Clustering / Packing  | |  Tech Mapping  |    |  <color #00a2e8>Asst 2 Due 11:59pm</color>  |
-|7| Feb 17 |  <color #ed1c24>NO CLASS \\ Holiday </color>  |  Logic Optimization  |  OpenCL   |
-|8| Feb 24 |  <color #ed1c24>NO CLASS</color>  | |  OpenCL \\ Asst 3 Discussion  |
-|9| Mar 2 |  OpenCL Help  | |  Power Estimation  |
-|10| Mar 9 |  Paper Review \\ OpenCL Help  | |  MPSoC Overview   |   | <color #00a2e8>Asst 3 Due 11:59pm</color>  |
-|11| Mar 16 |  <color #ed1c24>NO CLASS  </color>  | |  Discuss Student Presentations and Final Project  |
-|12| Mar 23 |  Student Presentations  | |  Student Presentations  | |  <color #00a2e8>Project Proposal Due</color>  |
-|13| Mar 30 |  Student Presentations  | |  Student Presentations  |
-|14| Apr 6 |  <color #ed1c24>Project Meetings</color>  | |   <color #ed1c24>Project Meetings</color>  |
-|15| Apr 13 |  Project Presentations  |  |  Project Presentations \\ <color #7092be>Last Day of Class. \\ All work due except for Final Project Reports </color> \\   | | |
-|16| Apr  20  | | |  <color #00a2e8>Project Reports Due 11:59pm</color>  | @#585858: |  @#585858:|
+| Week #        | Monday    |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
+|---------------|-----------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
+|1 (Jan 3)      |           | Course Introduction           |                               | FPGA Architecture             |                       |
+|2 (Jan 10)     |           | Routing                       |                               | Routing (Lab 1)               |                       |
+|3 (Jan 17)     |           | Routing Cont'd                | **Paper Review #1 Due, 2pm**  | Routing Paper Review          |                       |
+|4 (Jan 24)     |           | Placement                     |                               | Placement (Lab 2)             | **Lab 1 Due 11:59pm** | 
+|5 (Jan 31)     |           | TBD                           | **Paper Review #2 Due, 2pm**  | Placement Paper Review        |                       |
+|6 (Feb 7)      |           | Clustering / Packing          |                               | Tech Mapping                  | **Lab 2 Due 11:59pm** |
+|7 (Feb 14)     |           | Lab 3                         |                               | Logic Optimization            |                       |
+|8 (Feb 21)     |           | NO CLASS                      |                               | TBD Paper Review              |                       |
+|9 (Feb 28)     |           | TBD                           |                               | Power Estimation              | **Lab 3 Due 11:59pm** |    
+|10 (Mar 7)     |           | TBD                           |                               | TBD                           |                       |
+|11 (Mar 17)    |           | TBD                           |                               | Discuss Final Project         |                       |
+|12 (Mar 21)    |           | NO CLASS - Project Meetings   |                               | NO CLASS - Project Meetings   | **Project Proposal Due**|
+|13 (Mar 28)    |           | TBD                           |                               | TBD                           |                       |
+|14 (Apr 4)     |           | NO CLASS                      |                               | Project Presentations         |                       |
+|15 (Apr 11)    |           | Project Presentations         | **BYU Last Day of Class. All work due except for Final Project Reports.**  | 
 

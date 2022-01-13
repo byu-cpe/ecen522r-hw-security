@@ -1,7 +1,7 @@
 ---
 layout: lab
 toc: true
-title: "Lab 1: Router"
+title: "Router"
 short_title: Router
 number: 1
 # repo: lab_graphs
