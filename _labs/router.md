@@ -16,7 +16,15 @@ You are to write an implementation of an FPGA router, and work to optimize the q
 
 Code and submission is done using Github Classroom.  Use this [invitation link](https://classroom.github.com/a/mE_1ReuX) to create a private Github repository that you will use for the class. 
 
-After you create your repository, import the starter code from <https://github.com/byu-cpe/ecen629_student>. 
+After you create your repository, import the starter code from <https://github.com/byu-cpe/ecen629_student>. Make sure you use the "Import Code" button on your Github repository to import the full history from this starter code repository (If you just add the files and commit them yourself, you won't have a common history and won't be able to automatically merge in future changes I make.)
+
+### System Packages
+
+You will need these system packages:
+
+```
+sudo apt install libx11-dev
+```
 
 ### Code
 
