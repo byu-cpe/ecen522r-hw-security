@@ -4,7 +4,7 @@ toc: true
 title: "Router"
 short_title: Router
 number: 1
-# repo: lab_graphs
+repo: router
 ---
 
 ## Objectives
@@ -49,6 +49,7 @@ blocks use the Wilton topology.
 * *Net.cpp/.h*: A class representing a single net in the design, containing one source RRNode and a list of sink RRNodes.
 * *Router.cpp/.h*: An empty class to implement your router.
 * *RRNode.cpp/.h*: A class representing a single routing resource node (wire segment or pin), with pointers to all connected RRNodes.  To assign a Net to be routing using an RRNode, you can call `RRNode->setNet()`.  When this is called, the net will be drawn appropriately.
+* *RouterSimple.cpp/.h*: An example router that calls a maze router for every net, drawing after each net is routed.
 * *circuits/*: Contains a folder of test circuits.
 
 ### Input Circuit File
@@ -64,9 +65,25 @@ Example input file:
 0 0 4 1 2 3         Pin 4 on block at (0,0) connects to pin 3 at (1,2) 
 -1 -1 -1 -1 -1 -1   (end of pin pair list) 
 ```
+### Building and Running the Router
+
+Build the router using CMake. To run the router, you need to provide a circuit file and channel width:
+
+```
+cd router/build
+cmake ..
+make
+./src/router ../circuits/tiny 12
+```
 
 ### Graphics Package
 The graphics package, [EasyGL](http://www.eecg.toronto.edu/~vaughn/easygl/easygl.html), is available courtesy of Professor Vaughn Betz, University of Toronto. 
+
+The provided code contains a *Drawer* class, which wraps around easygl:
+  * To draw the current state of the routing, put `Drawer::draw();` in your code.
+  * To display the graphics window and wait for the user to hit the *Proceed* button, call `Drawer::loop();`
+
+By default the code will display graphics only when provided the `-d` flag, and will display the graphics after routing is complete.  If you want to draw the routing after each net is routed, you will want to call both of the above functions, as shown in *RouterSimple.cpp*. 
 
 
 ## Implementation
@@ -76,23 +93,30 @@ For debugging purposes, you may find it helpful to write your program so that it
 progress of your algorithm as it routes each step for each connection; that is, you may wish to display each step
 of the router expansion (though this is not mandatory for this assignment). 
 
-You should test your program on the test files provided in the assignment repository.  You should determine the minimum channel width (W) for which your router will successfully find a solution.  You should then relax the channel width (W+2) and report results for this as well.
+You should test your program on the test files provided in the assignment repository.  You should determine the minimum channel width (W) for which your router will successfully find a solution.  You should then relax the channel width (W+30%) and report results for this as well.
+
+### Running Multiple Designs
+
+A script is provided to you, `scripts/run_designs.py`, that will help you collect results on several designs.  
+  * First run the script with the `--find_min_w` argument, to perform a binary search and find the minimum channel width that is routable for each circuit, and write the results to the *resuts/minw.csv* file.
+  * Next, run the script without the argument to read in your minimium channel width file and run each design with (W=Wmin) and (W=Wmin+30%), collecting segment, runtime and memory results. Results are written to *results/results.csv*.
 
 ### Results
+
 1. You should collect the following results:
 
     | Circuit | W  | # Routing Segments | Runtime | Memory Usage |
     |---------|----|--------------------|--------|--------------|
     | small_dense | W<sub>min</sub> |
-    | small_dense | W<sub>min</sub>+2 |
+    | small_dense | W<sub>min</sub>+30% |
     | med_dense | W<sub>min</sub> |
-    | med_dense | W<sub>min</sub>+2 |
+    | med_dense | W<sub>min</sub>+30% |
     | large_dense | W<sub>min</sub> |
-    | large_dense | W<sub>min</sub>+2 |
+    | large_dense | W<sub>min</sub>+30% |
     | xl | W<sub>min</sub> |
-    | xl | W<sub>min</sub>+2 |
+    | xl | W<sub>min</sub>+30% |
     | huge | W<sub>min</sub> |
-    | huge | W<sub>min</sub>+2 |
+    | huge | W<sub>min</sub>+30% |
 
 
     Runtime and memory usage can be obtained in Ubuntu by running your command using `/usr/bin/time -v <command>`.  Memory is available as *Maximum resident set size*.

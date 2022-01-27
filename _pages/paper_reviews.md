@@ -17,9 +17,9 @@ An important part of this course is reading research papers.  There are two reas
 **PAPERS ARE DUE 24 HOURS BEFORE CLASS**
 
 | # | Due Date | Paper | 
-| 1 | **Jan 20** | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
+| 1 | **Jan 19** | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
 | 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
-| 3 |
+| 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
 | 4 |
 | 5 | 
 

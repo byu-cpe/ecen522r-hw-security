@@ -13,10 +13,10 @@ order: 2
 |2 (Jan 10)     |           | Routing                       |                               | Routing (Lab 1)               |                       |
 |3 (Jan 17)     |           | Routing Cont'd                | **Paper Review #1 Due, 2pm**  | Routing Paper Review          |                       |
 |4 (Jan 24)     |           | Placement                     |                               | Placement (Lab 2)             | **Lab 1 Due 11:59pm** | 
-|5 (Jan 31)     |           | TBD                           | **Paper Review #2 Due, 2pm**  | Placement Paper Review        |                       |
+|5 (Jan 31)     |           | TBD                           | **Paper Review #2 Due, 2pm**  | Placement Paper Review        | **Ex. 1 Due 11:59pm** |
 |6 (Feb 7)      |           | Clustering / Packing          |                               | Tech Mapping                  | **Lab 2 Due 11:59pm** |
-|7 (Feb 14)     |           | Lab 3                         |                               | Logic Optimization            |                       |
-|8 (Feb 21)     |           | NO CLASS                      |                               | TBD Paper Review              |                       |
+|7 (Feb 14)     |           | Lab 3                         | **Paper Review #3 Due, 2pm**  | Paper Review #3               |                       |
+|8 (Feb 21)     |           | NO CLASS                      |                               | Logic Optimization            |                       |
 |9 (Feb 28)     |           | TBD                           |                               | Power Estimation              | **Lab 3 Due 11:59pm** |    
 |10 (Mar 7)     |           | TBD                           |                               | TBD                           |                       |
 |11 (Mar 17)    |           | TBD                           |                               | Discuss Final Project         |                       |
