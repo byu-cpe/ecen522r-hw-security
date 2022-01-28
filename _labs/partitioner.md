@@ -2,6 +2,6 @@
 layout: lab
 toc: true
 title: "Partitioner"
-number: 4
+number: 3
 # repo: lab_graphs
 ---
