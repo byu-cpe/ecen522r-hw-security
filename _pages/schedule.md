@@ -17,8 +17,8 @@ order: 2
 |6 (Feb 7)      |           | Clustering / Packing          |                               | TBD                           |                       |
 |7 (Feb 14)     |           | Tech Mapping                  | **Paper Review #3 Due, 2pm**  | Paper Review #3               | **Lab 2 Due 11:59pm** |
 |8 (Feb 21)     |           | NO CLASS - Holiday            |                               | Lab 3                         |                       |
-|9 (Feb 28)     |           | Logic Optimization            |                               | Power Estimation              | **Lab 3 Due 11:59pm** |    
-|10 (Mar 7)     |           | TBD                           |                               | TBD                           |                       |
+|9 (Feb 28)     |           | Logic Optimization            | **Paper Review #4 Due, 2pm**  | Paper Review #4               | **Lab 3 Due 11:59pm** |    
+|10 (Mar 7)     |           | Power Estimation              |                               | TBD                           |                       |
 |11 (Mar 17)    |           | TBD                           |                               | Discuss Final Project         |                       |
 |12 (Mar 21)    |           | NO CLASS - Project Meetings   |                               | NO CLASS - Project Meetings   | **Project Proposal Due**|
 |13 (Mar 28)    |           | TBD                           |                               | TBD                           |                       |
