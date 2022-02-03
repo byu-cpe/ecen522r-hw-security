@@ -34,7 +34,7 @@ Include the following in your paper review (in marked sections):
   1. A sentence or two giving an **overview** of the paper.
   1. Describe the **2-3 Major Contributions and/or Novelty** of the paper. This should be more than a re-statement of the abstract.  What do you think are the important contributions of the paper?
   1. Provide a **critical review, discussing several postive and negative aspects of the paper**.  Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: (not all in one review):
-      *	importantance of the problem being solved
+      *	importance of the problem being solved
       *	soundness/correctness of approach
       *	appropriateness of methodology
       * quality, completeness or repeatability of results
