@@ -103,7 +103,7 @@ If you set *Toggle Nets* to *Nets*, you can see the rat’s nest of wires become
 # Exercise B - Timing-Driven Routing
 Note: For this part of the Exercise, please use the original place.c for VPR and not the new one you hacked up in Part A.
 
-1. VPR also implements timing-driven routing using an improved version of the PathFinder approach described in class. Run the placement tool with the default options and the timing-driven router. Report the post-routing critical path delay and the router run-time (see VPR output). NOTE: Do not set `--place` or `--place_algorithm` for Exercise B. Set the #tracks/channel (W) to 40 using `--route_chan_width 40 for *alu4*, 60 for *diffeq1*, 50 for *ex4p*, and 60 for *sha*.
+1. VPR also implements timing-driven routing using an improved version of the PathFinder approach described in class. Run the placement tool with the default options and the timing-driven router. Report the post-routing critical path delay and the router run-time (see VPR output). NOTE: Do not set `--pack`, `--place` or `--place_algorithm` for Exercise B. Set the #tracks/channel (W) to 40 using `--route_chan_width 40 for *alu4*, 60 for *diffeq1*, 50 for *ex4p*, and 60 for *sha*.
 
 1. Using the same parameters as in the previous step, explore the different parameters of the router and try to improve the critical path delay for the four circuits. Comment on the parameters you experimented with and their effect on the critical path delay. Be sure to vary the *present congestion* (`--pres_fac_mult`) and *historical congestion* (`--acc_fac`) parameters talked about in class.
 
