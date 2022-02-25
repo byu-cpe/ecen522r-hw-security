@@ -14,7 +14,7 @@ order: 2
 |3 (Jan 17)     |           | Routing Cont'd                | **Paper Review #1 Due, 2pm**  | Routing Paper Review          |                       |
 |4 (Jan 24)     |           | Placement                     |                               | Placement (Lab 2)             | **Lab 1 Due 11:59pm** | 
 |5 (Jan 31)     |           | Partitioning                  | **Paper Review #2 Due, 2pm**  | Placement Paper Review        | **Ex. 1 Due 11:59pm** |
-|6 (Feb 7)      |           | Clustering / Packing          |                               | TBD                           |                       |
+|6 (Feb 7)      |           | Clustering / Packing          |                               | Lab 2 Help, GDB, Valgrind     |                       |
 |7 (Feb 14)     |           | Tech Mapping                  | **Paper Review #3 Due, 2pm**  | Paper Review #3               | **Lab 2 Due 11:59pm** |
 |8 (Feb 21)     |           | NO CLASS - Holiday            |                               | Lab 3                         |                       |
 |9 (Feb 28)     |           | Logic Optimization            | **Paper Review #4 Due, 2pm**  | Paper Review #4               | **Lab 3 Due 11:59pm** |    
