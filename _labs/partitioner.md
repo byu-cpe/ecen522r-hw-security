@@ -52,6 +52,7 @@ You should perform some exploration to improve your algorithm.  You could try:
   * Changing how crossover is done
   * Mutation strategy
   * Population reduction strategy
+  * Exploring the impact of different random seeds
 
 ### Determinism
 
