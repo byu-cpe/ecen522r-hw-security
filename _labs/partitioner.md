@@ -53,6 +53,18 @@ You should perform some exploration to improve your algorithm.  You could try:
   * Mutation strategy
   * Population reduction strategy
 
+### Determinism
+
+The second command-line argument that you provide to your program is a *seed* value, that is used to seed a `std::default_random_engine` in the  *Design* class.  This can be used to perform a variety of random functions.  For example, you can generate a random real number in the range 0.1 to 0.5 using the following code:
+
+    std::uniform_real_distribution<> dist(0.1, 0.5);
+    float val = dist(design->getRng());
+
+Many other distributions are available in [#include \<random\>](https://en.cppreference.com/w/cpp/numeric/random), such as `uniform_int_distribution`.
+
+If you are careful to always use the seeded random engine for any randomness you need in your program, you will ensure consistent deterministic random behavior, and be able to change the seed value to explore different random behaviors.
+
+
 ## Report and Submission
 
 Prepare a brief report (max 2 pages) that includes:
