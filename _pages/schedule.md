@@ -19,7 +19,7 @@ order: 2
 |8 (Feb 21)     |           | NO CLASS - Holiday            |                               | Neural Networks on FPGAs      |                       |
 |9 (Feb 28)     |           | Logic Optimization            | **Paper Review #4 Due, 2pm**  | Paper Review #4               |  |                    |
 |10 (Mar 7)     |           | Power Estimation              |                               | TBD                           | **Lab 3 Due 11:59pm** |
-|11 (Mar 17)    |           | Discuss Final Project         |                               | TBD                           | **Project Proposal Due** |
+|11 (Mar 17)    |           | Discuss Final Project         |                               | TBD                           | **Project Proposal Due**, **Ex. 2 Due 11:59pm**|
 |12 (Mar 21)    |           | NO CLASS - Project Meetings   |                               | NO CLASS - Project Meetings   |                       |
 |13 (Mar 28)    |           | TBD                           |                               | TBD                           |                       |
 |14 (Apr 4)     |           | NO CLASS                      |                               | Project Presentations         |                       |
