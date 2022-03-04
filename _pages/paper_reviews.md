@@ -21,7 +21,8 @@ An important part of this course is reading research papers.  There are two reas
 | 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
 | 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
 | 4 | **March 2** | [Junsong Wang et al., "Design Flow of Accelerating Hybrid Extremely Low Bit-Width Neural Network in Embedded FPGA", FPL 2018](https://ieeexplore.ieee.org/abstract/document/8533487) |
-| 5 |           | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956) |
+| 5 | **March 19** | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956) |
+| 6 | **March 28** | [Licheng Gui et al., "RapidStream: Parallel Physical Implementation of FPGA HLS Designs", FPGA 2022.](https://dl.acm.org/doi/abs/10.1145/3490422.3502361)
 
 
 <!-- [//]: # "| 3 | ** Mar 9 ** | Jiantong Jiang et al., "Boyi: A Systematic Framework for Automatically Deciding theRight Execution Model of OpenCL Applications on FPGAs," FPGA, 2020. | https://dl.acm.org/doi/abs/10.1145/3373087.3375313 |" 
