@@ -2,7 +2,7 @@
 layout: lab
 toc: true
 title: "Placer"
-number: 3
+number: 2
 repo: placer
 ---
 
@@ -83,8 +83,11 @@ The code will evaluate your overlap by splitting the chip into a 10x10 grid, and
 
 Explore some form of optimization to improve the quality of your result.  
  
-## Report
+## Report and Submission
 
 1. A table indicating initial HPWL, final HPWL and final Overlap Cost for each circuit.
 1. A description of your spreading algorithm.  
-1. A description of any optimizations yoou performed.
+1. A description of any optimizations you performed.
+
+See [Submission Instructions]({% link _other/submission.md  %}).
+

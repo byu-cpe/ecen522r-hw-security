@@ -16,12 +16,13 @@ An important part of this course is reading research papers.  There are two reas
 
 **PAPERS ARE DUE 24 HOURS BEFORE CLASS**
 
-| # | Due Date | Paper | 
+| # | Due Date | Paper |
 | 1 | **Jan 19** | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
 | 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
 | 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
-| 4 |
-| 5 | 
+| 4 | **March 2** | [Junsong Wang et al., "Design Flow of Accelerating Hybrid Extremely Low Bit-Width Neural Network in Embedded FPGA", FPL 2018](https://ieeexplore.ieee.org/abstract/document/8533487) |
+| 5 | **March 19** | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956) |
+| 6 | **March 28** | [Licheng Gui et al., "RapidStream: Parallel Physical Implementation of FPGA HLS Designs", FPGA 2022.](https://dl.acm.org/doi/abs/10.1145/3490422.3502361)
 
 
 <!-- [//]: # "| 3 | ** Mar 9 ** | Jiantong Jiang et al., "Boyi: A Systematic Framework for Automatically Deciding theRight Execution Model of OpenCL Applications on FPGAs," FPGA, 2020. | https://dl.acm.org/doi/abs/10.1145/3373087.3375313 |" 
@@ -33,14 +34,14 @@ An important part of this course is reading research papers.  There are two reas
 Include the following in your paper review (in marked sections):
   1. A sentence or two giving an **overview** of the paper.
   1. Describe the **2-3 Major Contributions and/or Novelty** of the paper. This should be more than a re-statement of the abstract.  What do you think are the important contributions of the paper?
-  1. Provide a **critical review, discussing several postive and negative aspects of the paper**.  Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: (not all in one review):
-    *	importantance of the problem being solved
-    *	soundness/correctness of approach
-    *	appropriateness of methodology
-    * quality, completeness or repeatability of results
-    *	readability
-    *	perspective and/or comparison with previous work
-  1. Identify at least one aspect of the paper that you **didn't undertand**, or want to better understand.
+  1. Provide a **critical review, discussing several positive and negative aspects of the paper**.  Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: (not all in one review):
+      *	importance of the problem being solved
+      *	soundness/correctness of approach
+      *	appropriateness of methodology
+      * quality, completeness or repeatability of results
+      *	readability
+      *	perspective and/or comparison with previous work
+  1. Identify at least one aspect of the paper that you **didn't understand**, or want to better understand.
 
 Your review should be one page or less (normal fonts and margins).  Quality is more important than quantity.
 
