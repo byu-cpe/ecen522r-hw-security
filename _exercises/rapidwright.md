@@ -10,7 +10,7 @@ number: 2
 
 ### Background
 
-The purpose of this assignment is to get some basic experience using RapidWright (<https://www.rapidwright.io/>), a (mostly) open-source Java tool that provides you with a programming interface to Vivado designs.  RapidWright contains it's own Java classes to represent Xilinx FPGA devices, as well as the designs that can be implemented on the device.  RapidWright interacts with Vivado through Xilinx checkpoint (.dcp) files.  You can create designs in Vivado, export them to a checkpoint and import them into RapidWright for analysis or modifications.  The reverse process is also possible.
+The purpose of this assignment is to get some basic experience using RapidWright (<https://www.rapidwright.io/>), a (mostly) open-source Java tool that provides you with a programming interface to Vivado designs.  RapidWright contains it's own Java classes to represent Xilinx FPGA devices, netlists, and how a netlist is implemented on the FPGA device.  RapidWright interacts with Vivado through Xilinx checkpoint (.dcp) files.  You can create designs in Vivado, export them to a checkpoint and import them into RapidWright for analysis or modifications.  The reverse process is also possible.
 
 In this exercise you will create a checkpoint in Vivado, import it into RapidWright, and then do some simple analysis on the *Device* and the *Design*.  You will write some code to determine a distribution of how far nets travel on the FPGA, and how many programmable connections they pass through.
 
