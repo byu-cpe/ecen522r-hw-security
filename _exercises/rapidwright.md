@@ -25,7 +25,7 @@ If you prefer to use Java that's fine too.
 
 The documentation for the various RapidWright classes can be found at <https://www.rapidwright.io/javadoc/>.
 
-You will likely find classes helpful, and probably others not listed here:
+Here are a few classes you will need (and probably others not listed here):
   * [Device](https://www.rapidwright.io/javadoc/com/xilinx/rapidwright/device/Device.html)
   * [Design](https://www.rapidwright.io/javadoc/com/xilinx/rapidwright/design/Design.html)
   * [Net](https://www.rapidwright.io/javadoc/com/xilinx/rapidwright/design/Net.html)
