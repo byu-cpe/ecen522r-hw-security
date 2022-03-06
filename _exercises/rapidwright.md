@@ -21,6 +21,52 @@ Setting up this environment takes only a few minutes, and instructions are provi
 
 If you prefer to use Java that's fine too.
 
+Here's a very basic Python script that opens a design and prints the number of cells and nets (assuming you have downloaded *rapidwright-2021.2.1-standalone-lin64.jar*):
+
+```python
+import jpype
+import jpype.imports
+from jpype.types import *
+
+jpype.startJVM(classpath=["rapidwright-2021.2.1-standalone-lin64.jar"])
+
+from com.xilinx.rapidwright.design import Design
+
+def main():
+    d = Design.readCheckpoint("design.dcp", "design.edf")
+
+    print("Number of Cells:", len(d.getCells()))
+    print("Number of Nets:", len(d.getNets()))
+
+
+if __name__ == "__main__":
+    main()
+```
+
+When I run this, I get output like this:
+
+```
+==============================================================================
+==                         Reading DCP: design.dcp                          ==
+==============================================================================
+Loading device from file xc7a200tsbg484-1
+ XML Parse & Device Load:     0.475s
+              EDIF Parse:     0.448s
+        Read XDEF Header:     0.014s
+        Read XDEF Caches:     0.023s
+     Read XDEF Placement:     0.295s
+INFO: Building uncommon Wire->Node cache...
+      This might take a few seconds for large devices on the first call.  
+      It is generally triggered when getting the Node from an uncommon Wire object.  
+      To avoid printing this message, set Device.QUIET_MESSAGE=true or set the ENVIRONMENT variable RW_QUIET_MESSAGE=1.
+INFO: Finished building uncommon Wire->Node cache
+       Read XDEF Routing:     1.325s
+------------------------------------------------------------------------------
+         [No GC] *Total*:     2.581s
+Number of Cells: 10185
+Number of Nets: 11829
+```
+
 ### Documentation
 
 The documentation for the various RapidWright classes can be found at <https://www.rapidwright.io/javadoc/>.
@@ -34,43 +80,13 @@ Here are a few classes you will need (and probably others not listed here):
 ## Implementation 
 
 ### Generate Design
-You should create a design in Vivado that you will import into RapidWright.  You are free to use a design of your choosing.  If you aren't sure how to create a design in Vivado, please reach out to the instructor.  Try and choose a design that isn't too small (at least a few thousand LUTs)
+You should create a design in Vivado that you will import into RapidWright.  You are free to use a design of your choosing.  If you aren't sure how to create a design in Vivado, please reach out to the instructor.  Try and choose a design that isn't too small (at least a few thousand LUTs).
 
 In Vivado you should perform *Implementation*, and then export both an EDIF netlist (you can do this using `write_edif`) and a checkpoint (using `write_checkpoint`).
 
 
-Make sure you can import your design into RapidWright.  You can do so like this:
+Make sure you can import your design into RapidWright and can print the number of Cells and Nets.
 
-```python
-design = Design.readCheckpoint("dcp_path.dcp", "edif_path.edf")
-```
-
-When I import my DCP I see an output message like this:
-
-    ==============================================================================
-    ==                         Reading DCP: design.dcp                          ==
-    ==============================================================================
-    Loading device from file xc7a200tsbg484-1
-    XML Parse & Device Load:     0.378s
-                EDIF Parse:     0.457s
-            Read XDEF Header:     0.017s
-            Read XDEF Caches:     0.020s
-        Read XDEF Placement:     0.248s
-    INFO: Building uncommon Wire->Node cache...
-        This might take a few seconds for large devices on the first call.  
-        It is generally triggered when getting the Node from an uncommon Wire object.  
-        To avoid printing this message, set Device.QUIET_MESSAGE=true or set the ENVIRONMENT variable RW_QUIET_MESSAGE=1.
-    INFO: Finished building uncommon Wire->Node cache
-        Read XDEF Routing:     1.137s
-    ------------------------------------------------------------------------------
-            [No GC] *Total*:     2.257s
-
-Once you have your design loaded, print the number of Cells and Nets:
-
-```python
-print("Number of Cells:", len(design.getCells()))
-print("Number of Nets:", len(design.getNets()))
-```
 
 ### Device Exploration
 
