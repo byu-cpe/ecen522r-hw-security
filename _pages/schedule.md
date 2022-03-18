@@ -18,10 +18,12 @@ order: 2
 |7 (Feb 14)     |                               | Tech Mapping                  | **Paper Review #3 Due, 2pm**  | Paper Review #3               | **Lab 2 Due 11:59pm** |
 |8 (Feb 21)     |                               | NO CLASS - Holiday            |                               | Neural Networks on FPGAs      |                       |
 |9 (Feb 28)     |                               | Neural Networks on FPGAs      | **Paper Review #4 Due, 2pm**  | Paper Review #4               |                       |
-|10 (Mar 7)     |                               | Logic Optimization            |                               | Power Estimation/Optimization |**Lab 3 Due 11:59pm**  |
-|11 (Mar 17)    |                               | Discuss Final Project         | **Paper Review #5 Due, 2pm**  | Paper Review #5               | **Project Proposal Due**, **Ex. 2 Due 11:59pm**|
-|12 (Mar 21)    |                               | NO CLASS - Project Meetings   |                               | NO CLASS - Project Meetings   |                       |
-|13 (Mar 28)    | **Paper Review #6 Due, 2pm**  | Paper Review #6               |                               | Debugging                     |                       |
+|10 (Mar 7)     |                               | Logic Optimization            |                               | Power Estimation/Optimization | **Lab 3 Due 11:59pm** |
+|11 (Mar 17)    |                               | NO CLASS                      |                               | NO CLASS                      | **Ex. 2 Due 11:59pm** |
+|12 (Mar 21)    | **Paper Review #5 Due, 2pm**  | Paper Review #5 / Final Project|                              | NO CLASS                      | **Project Proposal Due**  |
+|13 (Mar 28)    |                               | Debugging FPGAs               | **Paper Review #6 Due, 2pm**  | Paper Review #6               |                       |
 |14 (Apr 4)     |                               | NO CLASS                      |                               | NO CLASS                      |                       |
 |15 (Apr 11)    |                               | Project Presentations         | **BYU Last Day of Class. All work due except for Final Project Reports.**  | 
+
+
 
