@@ -21,8 +21,8 @@ order: 2
 |10 (Mar 7)     |                               | Logic Optimization            |                               | Power Estimation/Optimization | **Lab 3 Due 11:59pm** |
 |11 (Mar 17)    |                               | NO CLASS                      |                               | NO CLASS                      | **Ex. 2 Due 11:59pm** |
 |12 (Mar 21)    | **Paper Review #5 Due, 2pm**  | Paper Review #5 / Final Project|                              | NO CLASS                      | **Project Proposal Due**  |
-|13 (Mar 28)    |                               | Debugging FPGAs               |                               | TBD                           |                       |
-|14 (Apr 4)     |                               | NO CLASS                      |                               | NO CLASS                      |                       |
+|13 (Mar 28)    |                               | Debugging FPGAs               |                               | Project Meetings              |                       |
+|14 (Apr 4)     |                               | NO CLASS                      |                               | Project Meetings              |                       |
 |15 (Apr 11)    | **Paper Review #6 Due, 2pm**  | Paper Review #6         | **BYU Last Day of Class. All work due except for Final Project Reports.**  || Final Project Presentations, 3pm, CB 406 | 
 
 Project Presentations
