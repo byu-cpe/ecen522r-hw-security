@@ -8,7 +8,7 @@ icon: fas fa-chalkboard-teacher
 
 
 ## Instructor 
-Prof. Jeff Goeders, 450I EB, email: jgoeders@byu.edu, Office hours: by appointment
+Prof. Jeff Goeders, 450I EB, email: jgoeders@byu.edu, Office hours: <https://calendly.com/jgoeders/office_hours>
 
 ## Course Content
 In this course, we will study the entire FPGA/VLSI CAD flow, including high-level synthesis, technology-dependent and independent optimization, partitioning, floorplanning and placement, and routing. For each stage, we will identify the problem to be solved, and discuss optimization algorithms to solve the problem. Some of these optimization algorithms include simulated annealing, dynamic programming, branch-and-bound, and various graph algorithms (eg. Shortest-path algorithms). There will be an emphasis on CAD algorithms targeting FPGA, but will also discuss CAD for custom chip design. Note that this course is not about the use of CAD tools; rather, it is about the optimization algorithms that are used in these tools.  We will also cover current research in the area, and several lectures on student selected topics.
