@@ -14,10 +14,16 @@ You are to write an implementation of an FPGA router, and work to optimize the q
 
 ### Github Repo
 
-Code and submission is done using Github Classroom.  Use this [invitation link](https://classroom.github.com/a/mE_1ReuX) to create a private Github repository that you will use for the class. 
+Code and submission is done using Github Classroom.  Use this [invitation link](https://classroom.github.com/a/Rek7xEem) to create a private Github repository that you will use for the class. 
 
-After you create your repository, import the starter code from <https://github.com/byu-cpe/ecen629_student>. Make sure you use the "Import Code" button on your Github repository to import the full history from this starter code repository (If you just add the files and commit them yourself, you won't have a common history and won't be able to automatically merge in future changes I make.)
+After you create your repository, import the starter code from <https://github.com/byu-cpe/ecen629_student> using these steps, replacing the repository URL in line 3 with your repo URL (please follow these steps and don't use the "Import Code" button:
 
+        git clone --bare git@github.com:byu-cpe/ecen629_student.git
+        cd ecen629_student.git/
+        git push --mirror git@github.com:byu-ecen629-classroom/427-labs-jgoeders.git
+        cd ..
+        rm -rf ecen427_student.git
+        
 ### System Packages
 
 You will need these system packages:
