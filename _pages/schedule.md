@@ -11,9 +11,20 @@ order: 2
 |---------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
 |1 (Jan 8)      |                               | Course Intro, FPGA Arch.      |                               | Routing                       |                       |
 |2 (Jan 15)     |                               | Routing                       |                               | NO CLASS                      |                       |
-|3 (Jan 22)     |                               | Routing Cont'd                | **Paper Review #1 Due, 2pm**  | Routing Paper Review          |                       |
+|3 (Jan 22)     |                               | Routing Cont'd                |                               |                               |                       |
 |4 (Jan 29)     |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 1 Due 11:59pm** | 
-|5 (Feb 5)      |                               | Partitioning                  | **Paper Review #2 Due, 2pm**  | Placement Paper Review        | **Ex. 1 Due 11:59pm** |
+|5 (Feb 5)      |                               | NO CLASS                      | **Paper Review #2 Due, 2pm**  | Paper Discuss #1              | **Ex. 1 Due 11:59pm** |
+|6 (Feb 12)     |                               |                               |                               | Paper Discuss #2              |                       |
+|7 (Feb 19)     |                               |                               |                               | TBD                           |                       |
+|8 (Feb 26)     |                               |                               |                               | Paper Discuss #3              |                       |
+|9 (Mar 4)      |                               | NO CLASS                      |                               | Paper Discuss #4              |                       |
+|10 (Mar 11)    |                               |                               |                               | Paper Discuss #5              |                       |
+|11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      |                       |
+|12 (Mar 25)    |                               |                               |                               | Paper Discuss #6              |                       |
+|13 (Apr 1)     |                               |                               |                               | Paper Discuss #7              |                       |
+|14 (Apr 8)     |                               |                               |                               |                               |                       |
+|15 (Apr 15)    |                               | LAST DAY OF CLASS             |                               |                               |                       |
+
 
 <!-- | Week #        | Monday                        |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
 |---------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
