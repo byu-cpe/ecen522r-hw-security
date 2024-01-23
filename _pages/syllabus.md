@@ -27,11 +27,12 @@ Sharing your source code  is prohibited and is a violation of the Honor Code.  *
 
 | Component                 | % of Grade    |
 |---------------------------|---------------|
-| Lab Programming Assignments (3)   | 40            |
+| Lab Programming Assignments (3)   | 30            |
 | Lab Exercises (2)         | 10            |
-| Paper Reviews             | 15            |
-| Leading Class Paper Discussion              | 10            |
-| Final Project             | 25            |
+| Paper Reviews             | 20            |
+| Leading Class Paper Discussion              | 15            |
+| Final Project             | 20            |
+| Participation             | 5            |
 
 ### Programming Assignments
  There will be three assignments. In each assignment, you will implement one of the CAD algorithms discussed in class, and evaluate its performance.  These 
@@ -41,10 +42,10 @@ assignments make up the largest part of your grade, and as such, are quite large
 There will be two guided exercises that will give you experience using open-source CAD tools.  These will be much smaller than the programming assignments.
 
 ### Paper Reviews & Class Paper Discussion
-You will be asked to complete several paper reviews over the course of the semester.  In addition, each student will lead a class discussion on one of the papers. See [Paper Reviews]({% link _pages/paper_reviews.md %}) and  [Paper Discussion]({% link _other/paper_discussion.md %}) for more details.
+You will be asked to complete several paper reviews over the course of the semester.  In addition, each student will lead a class discussion on one of the papers. See [Paper Reviews]({% link _pages/paper_reviews.md %}).
 
 ### Final Project
-Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See [Final Project]({% link _other/final_project.md %}) for more details.
+Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See [Final Project]({% link _pages/final_project.md %}) for more details.
 
 There will be no final exam for the course.
 

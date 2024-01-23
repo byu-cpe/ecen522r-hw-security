@@ -73,4 +73,4 @@ Prepare a brief report (max 2 pages) that includes:
   * A table of runtime and cut cost for each benchmark (this is produced by *run.py*).
   * A discussion of exploration/optimization you performed, with results, tables, figures, etc, to help communicate your exploration/optimization process.
 
-See [Submission Instructions]({% link _other/submission.md  %}).
+See [Submission Instructions]({% link _pages/submission.md  %}).

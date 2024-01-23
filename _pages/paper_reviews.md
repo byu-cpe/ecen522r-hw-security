@@ -15,18 +15,23 @@ An important part of this course is reading research papers.  There are two reas
 
 Throughout the semester we will discuss several research papers.  For each discussion, two students will serve as the discussion leaders.  Each student will get do to serve in this role once.  On the remainder of the weeks, you will be expected to read the paper, submit a paper review, and attend the class prepared to discuss the paper.  
 
+Sign up on Slack (see `#paper_review` channel), as a group of 2, to lead a paper discussion on a certain day. 
+
 ### Class Participants
 * Prepare a paper review as described below.
 * Submit the paper review to [jgoeders@byu.edu](mailto:jgoeders@byu.edu) 24 hours before the class.
 * Attend class prepared to discuss the paper.
 
 ### Discussion Leaders
+* You don't need to complete a paper review.
 * You will receive the paper reviews on Slack 24 hours before class.
 * You should read over the paper reviews and prepare slides to lead a class discussion.  
-* The class discussion will be 30 minutes long, and should include:
-  * An overview of the paper, discussing key technical contributions, making sure to explain technical details that classmates may not understand (10 min max)
+* The class discussion will be 35-40 minutes long, and should include:
+  * An overview of the paper, discussing key technical contributions, making sure to explain technical details that classmates may not understand (15 min max)
   * Lead a discussion about what makes the technical contribution and results of the paper interesting, important, or novel (10-15 minutes)
   * Lead a discussion about the style of the paper, and what elements of the paper students liked or did not like about how the paper was presented or organized. (5-10 minutes)
+
+**Remember:** You are primarily a discussion moderator.  Don't talk too much, and make sure to engage the class in discussion.  You should not be lecturing for the entire time.
 
 ## Papers
 Papers will be posted here as the class proceeds.
@@ -59,33 +64,36 @@ See the [schedule]({% link _pages/schedule.md %}) for the paper review due dates
 
 Include the following in your paper review (in marked sections):
   1. Technical Contributions: (30%)
-    * What are the contributions of the paper?
-    * What are the key technical ideas and results?
-    * What technical ideas did you not understand and would like to see discussed in class?
+      * What are the contributions of the paper?
+      * What are the key technical ideas and results?
+      * What technical ideas did you not understand and would like to see discussed in class?
 
   1. Critical Review: (50%)
-    * What are the technical strengths and weaknesses of the paper? Discuss several positive and negative aspects of the paper.
-    * Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: 
-      *	importance of the problem being solved
-      *	soundness/correctness of approach
-      *	appropriateness of methodology
-      * quality, completeness or repeatability of results
+      * What are the technical strengths and weaknesses of the paper? Discuss several positive and negative aspects of the paper.
+      * Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: 
+        *	importance of the problem being solved
+        *	soundness/correctness of approach
+        *	appropriateness of methodology
+        * quality, completeness or repeatability of results
       
   1. Style: (20%)
-    * What did you like about the paper style that helped you be convinced of impact and correctness of the work?
-    * Was there something in the paper you would like to use in your own future writing?
-    * Was there something in the paper that you would like to avoid in your own future writing?
+      * What did you like about the paper style that helped you be convinced of impact and correctness of the work?
+      * Was there something in the paper you would like to use in your own future writing?
+      * Was there something in the paper that you would like to avoid in your own future writing?
 
-Your review should be 0.5-1 page (assuming 11pt font, single spaced, 1" margins).  Quality is more important than quantity.
+Your review should be 0.5-1 page, assuming 11pt font, single spaced, 1" margins.  Quality is more important than quantity.
 
+## Presentation Evaluation 
 
-## Class Discussion
+You will be evaluated on the following criteria: 
+  * Organization and flow of presentation.
+  * Effectiveness at summarizing the paper, identifying key material, and providing meaningful substance without going into unnecessary details.
+  * Effectiveness at organizing students' critical review items, and leading class discussion on these items.
+  * <ins>Keeping audience engaged, and soliciting participation from the entire audience.</ins>
+  * Ability to address students' questions and concerns.
+  * Appropriate length of time.
 
-For each of the paper reviews, we will have an [in-class discussion]({% link _other/paper_discussion.md %}).  Please come to class ready to discuss the paper.  If you are leading the class discussion, you don't have to submit a paper review that week. 
-
-## Submission Instructions & Late Policy
-See the `#paper_review` channel on Slack for submission links.
-
+## Late Policy
 Because we discuss the paper reviews as a class, no late submissions will be accepted.  Please make sure to get your paper reviews in on time!
 
 

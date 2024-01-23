@@ -136,7 +136,7 @@ A script is provided to you, `scripts/run_designs.py`, that will help you collec
 * A screenshot of the routing of a design of your choice.
 * A description of steps you took to improve any of the reported metrics.  Where helpful, include charts, figures or code snippets to explain what you chained and how impactful the optimizations were.
 
-See [Submission Instructions]({% link _other/submission.md  %}).
+See [Submission Instructions]({% link _pages/submission.md  %}).
 
 
 ## Acknowledgement

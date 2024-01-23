@@ -90,5 +90,5 @@ Explore some form of optimization to improve the quality of your result.
 1. A description of your spreading algorithm.  
 1. A description of any optimizations you performed.
 
-See [Submission Instructions]({% link _other/submission.md  %}).
+See [Submission Instructions]({% link _pages/submission.md  %}).
 

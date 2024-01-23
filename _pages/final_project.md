@@ -3,8 +3,9 @@ layout: page
 toc: false
 title: Final Course Project
 short_title: Final Project
+sidebar: true
 indent: 0
-number: 3
+order: 4
 ---
 
 

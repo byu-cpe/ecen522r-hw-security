@@ -4,7 +4,8 @@ toc: false
 title: Lab Submission
 short_title: Lab Submission
 indent: 0
-number: 2
+sidebar: true
+order: 5
 ---
 
 
