@@ -28,14 +28,21 @@ Throughout the semester we will discuss several research papers.  For each discu
   * Lead a discussion about what makes the technical contribution and results of the paper interesting, important, or novel (10-15 minutes)
   * Lead a discussion about the style of the paper, and what elements of the paper students liked or did not like about how the paper was presented or organized. (5-10 minutes)
 
-## Schedule
-<ins>**Schedule will be posted here as the class proceeds.**</ins>
+## Papers
+Papers will be posted here as the class proceeds.
+
+See the [schedule]({% link _pages/schedule.md %}) for the paper review due dates.
 
 **PAPERS ARE DUE 24 HOURS BEFORE CLASS**
 
 | # | Paper |
 | 1 | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
-| 2 | [Kevin Murray, Sheng Zhong, Vaughn Betz, "AIR: A Fast but Lazy Timing-Driven FPGA Router", ASP-DAC 2020.](https://ieeexplore.ieee.org/document/9045175)
+| 2 | [Kevin Murray, Sheng Zhong, Vaughn Betz, "AIR: A Fast but Lazy Timing-Driven FPGA Router", ASP-DAC 2020.](https://ieeexplore.ieee.org/document/9045175) |
+| 3 | 
+| 4 |
+| 5 |
+| 6 |
+| 7 |
 
 <!-- | 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
 | 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
@@ -51,18 +58,25 @@ Throughout the semester we will discuss several research papers.  For each discu
 ## Paper Review Contents
 
 Include the following in your paper review (in marked sections):
-  1. A sentence or two giving an **overview** of the paper.
-  1. Describe the **2-3 Major Contributions and/or Novelty** of the paper. This should be more than a re-statement of the abstract.  What do you think are the important contributions of the paper?
-  1. Provide a **critical review, discussing several positive and negative aspects of the paper**.  Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: (not all in one review):
+  1. Technical Contributions: (30%)
+    * What are the contributions of the paper?
+    * What are the key technical ideas and results?
+    * What technical ideas did you not understand and would like to see discussed in class?
+
+  1. Critical Review: (50%)
+    * What are the technical strengths and weaknesses of the paper? Discuss several positive and negative aspects of the paper.
+    * Try to provide non-trivial arguments, including some points not brought up by the authors.  Do not summarize the paper (that's what the abstract is for); rather, evaluate the merits of the work done by the authors as presented in the paper. You could comment on things like: 
       *	importance of the problem being solved
       *	soundness/correctness of approach
       *	appropriateness of methodology
       * quality, completeness or repeatability of results
-      *	readability
-      *	perspective and/or comparison with previous work
-  1. Identify at least one aspect of the paper that you **didn't understand**, or want to better understand.
+      
+  1. Style: (20%)
+    * What did you like about the paper style that helped you be convinced of impact and correctness of the work?
+    * Was there something in the paper you would like to use in your own future writing?
+    * Was there something in the paper that you would like to avoid in your own future writing?
 
-Your review should be one page or less (normal fonts and margins).  Quality is more important than quantity.
+Your review should be 0.5-1 page (assuming 11pt font, single spaced, 1" margins).  Quality is more important than quantity.
 
 
 ## Class Discussion
