@@ -11,7 +11,7 @@ order: 2
 |---------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
 |1 (Jan 8)      |                               | Course Intro, FPGA Arch.      |                               | Routing                       |                       |
 |2 (Jan 15)     |                               | Routing                       |                               | NO CLASS                      |                       |
-|3 (Jan 22)     |                               | Routing Cont'd & Placement    |                               | Placement                     |                       |
+|3 (Jan 22)     |                               | Routing Cont'd                |                               | Placement                     |                       |
 |4 (Jan 29)     |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 1 Due 11:59pm** | 
 |5 (Feb 5)      |                               | NO CLASS                      | **Paper Review #1 Due, 2pm**  | Paper Discuss #1 &            | **Ex. 1 Due 11:59pm** |
 |6 (Feb 12)     |                               |                               | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 &            |                       |
@@ -20,8 +20,8 @@ order: 2
 |9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            |                       |
 |10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            |                       |
 |11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      |                       |
-|12 (Mar 25)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #6 &            |                       |
-|13 (Apr 1)     |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #7 &            |                       |
+|12 (Mar 25)    |                               |                               | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 &            |                       |
+|13 (Apr 1)     |                               |                               | **Paper Review #7 Due, 2pm**  | Paper Discuss #7 &            |                       |
 |14 (Apr 8)     |                               |                               |                               |                               |                       |
 |15 (Apr 15)    |                               | LAST DAY OF CLASS             |                               |                               |                       |
 
