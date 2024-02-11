@@ -7,19 +7,23 @@ repo: placer
 under_construction: true
 ---
 
+## Acknowledgement
+<span style="color:blue">
+This assignment was developed by Professor Jason Anderson (University of Toronto).  I have modified it slightly for our class.
+</span>
 
 ## Preliminary
 
 ### Overview
-You are to write an implementation of a simulated annealing placer.  The goal will be to come up with an implementation that achieves a good cost, based on the sum of half-perimeter wire length (HPWL) of all nets.  
-<!-- 
+You are to write an implementation of a basic analytical placer (AP), with overlap removal (spreading).  The goal will be to come up with an implementation that achieves a good cost, based on the sum of half-perimeter wire length (HPWL) of all nets.  As described in class, you will formulate the placement problem mathematically as a system of linear equations to be solved. You will use an existing package (UMFPACK) to solve the linear system.
+
 ### System Packages
 
 You will need these system packages:
 
 ```
 sudo apt install libx11-dev libumfpack5 libsuitesparse-dev
-``` -->
+```
 
 ### Code
 
