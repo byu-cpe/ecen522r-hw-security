@@ -43,8 +43,8 @@ See the [schedule]({% link _pages/schedule.md %}) for the paper review due dates
 | # | Paper |
 | 1 | [Dries Vercruyce, Elias Vansteenkiste and Dirk Stroobandt, "CRoute: A Fast High-quality Timing-driven Connection-based FPGA Router", FCCM 2019.](https://ieeexplore.ieee.org/document/8735564) |
 | 2 | [Kevin Murray, Sheng Zhong, Vaughn Betz, "AIR: A Fast but Lazy Timing-Driven FPGA Router", ASP-DAC 2020.](https://ieeexplore.ieee.org/document/9045175) |
-| 3 | 
-| 4 |
+| 3 | [Andrew Gunter, Steven Wilton, "A Machine Learning Approach for Predicting the Difficulty of FPGA Routing Problems", FCCM 2023.](https://ieeexplore.ieee.org/document/10171477)
+| 4 | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) 
 | 5 |
 | 6 |
 | 7 |

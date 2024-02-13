@@ -4,91 +4,119 @@ toc: true
 title: "Placer"
 number: 2
 repo: placer
-under_construction: true
 ---
 
-## Acknowledgement
-<span style="color:blue">
-This assignment was developed by Professor Jason Anderson (University of Toronto).  I have modified it slightly for our class.
-</span>
 
 ## Preliminary
 
 ### Overview
-You are to write an implementation of a basic analytical placer (AP), with overlap removal (spreading).  The goal will be to come up with an implementation that achieves a good cost, based on the sum of half-perimeter wire length (HPWL) of all nets.  As described in class, you will formulate the placement problem mathematically as a system of linear equations to be solved. You will use an existing package (UMFPACK) to solve the linear system.
+You are to write an implementation of a simulated annealing placer.  The goal will be to come up with an implementation that achieves a good cost, based on the sum of half-perimeter wire length (HPWL) of all nets.  
 
+<!-- 
 ### System Packages
 
 You will need these system packages:
 
 ```
 sudo apt install libx11-dev libumfpack5 libsuitesparse-dev
-```
+``` 
+-->
 
 ### Code
-
 
 The starter code sets up basic classes to keep track of Blocks, Nets, and graphics.  You will only need to implement the actual placer code.
 
   * *placer_main.cpp*: The main executable.  This takes a command-line argument, the path to the circuit file.	
-  * *Design.cpp/.h*: A class containing all blocks and nets in the design.  You are already provided with functions to get the current half-perimter wire length (`getHPWL()`), as well as several helper functions.
-  * *Block.cpp/.h*: A clas representing a block that needs to be placed.  Blocks contain an x,y location, a list of connected `Net`s, as well as a `fixed` property.  A `imaginary` property is included in case you want to create fake blocks for spreading purposes.  Imaginary blocks won't be drawn, and won't affect the HPWL.
+  * *Design.cpp/.h*: A class containing all blocks and nets in the design.  You are already provided with functions to get the current half-perimeter wire length (`getHPWL()`), as well as several helper functions.
+  * *FPGA.cpp/.h*: A class representing the FPGA chip:
+    * It is a square of `size x size` tiles.  
+    * The outermost tiles are for I/O blocks, which are fixed in place. The fixed blocks will be pre-placed when reading in the circuit file.  For all other blocks, you will need to place them.
+    * `getBlock(...)` will return the block placed at a given location.  The function is overloaded and can be provided a `(int x, int y)` location, or an `(int xy)` location. The latter is a single integer representing the x and y location, where `x = xy / size`, `y = xy % size`.
+  * *Block.cpp/.h*: A class representing a block that needs to be placed.  
+    * Blocks contain an x,y location, a list of connected `Net`s, as well as a `fixed` property.
+    * You can place or unplace a block using the `place` and `unplace` functions.  When you call the `place` function, it will call the appropriate `FPGA` `placeBlock` function that will allow the `FPGA` class to keep track of blocks placed at each location.  Do not directly call the `FPGA` `placeBlock` function in your code.
+    * Placing can be done using a `(int x, int y)` location, or an `(int xy)` location.  
   * *Net.cpp/.h*: A class representing a single net in the design, containing a list of all Blocks that are part of the Net.	
   * *Drawer.cpp/.h*: A class responsible for drawing the chip and block placement.
-  * *APEdge.cpp/.h*: A class that you can use to keep track of edges (springs) for the analyical placement formulation.  
   * *circuits/*: Contains a folder of test circuits.
 
 
-### UMF Pack
-UMFPACK is a tool for working with sparse matrices.  You should familiarize yourself with **compressed column storage**, which you can read about [here](https://people.math.sc.edu/Burkardt/cpp_src/umfpack/umfpack.html).  A sample cpp program for working with UMFPACK can also be found on that page (<https://people.math.sc.edu/Burkardt/cpp_src/umfpack/umfpack_simple.cpp>).
-
 ### Input Circuit File
-The netlist file input format has two sections. The two sections are separated from one another by a -1 appearing by itself on a line. The first section specifies the blocks to be placed and the connectivity between them. Each line has the following form:
+Netlist format:
+  * The first line contains a single integer indicating the FPGA `size`:
+  * The next lines list the fixed I/O blocks:
 
-    blocknum netnum_1 netnum_2 netnum_3 ... netnum_n -1
+        blocknum x y
 
-Where blocknum is a positive integer giving the number of the cell, and the netnum_*i* are the numbers of the nets that are attached to that block. Every block that has the same netnum_*i* on its description line is attached. Note that each block may have a different number of nets attached to it. Each line is terminated by a -1.
+  * The next lines list the movable blocks and their net connections:
 
-Example input file:
-```
-1 2 3 4 -1
-2 5 4 -1
-3 5 6 2 -1
-4 6 3 -1
--1
-1 50 0
-4 0 50
--1
-```
+        blocknum netnum_1 netnum_2 ... 
 
-In this example, block 1 is connected to nets 2, 3 and 4. Note that each net may be connected to more than two blocks (that is, there are multi-fanout nets). Also note that net numbers are not related to block numbers.
-
-As discussed in class, the AP formulation requires there to be a set of pre-placed (fixed) objects, normally I/Os. The second section of the netlist file specifies the placement of fixed objects. It has the following form:
-
-    blocknum x_position y_position
-
-In the above example, block 1 is pre-placed at the position with x = 50, y = 0. The list of fixed blocks is terminated by a -1 by itself on a line.
 
 ## Implementation
 
-1. Formulate and solve the analytical placement problem assuming the clique net
-model (*Remember, in the clique model, each edge in the complete graph has weight of 2/p*). Do not do any overlap removal in this step. 
+### Part 1: Greedy Placement
 
-1. Implement some form of overlap removal to legalize the placement.  We will discuss different approaches in class.  
+Implement a greedy placement algorithm that:
+1. Performs random placement with a given seed.  You will need to implement `void Design::randomizePlacement(int seed)`.
+1. Performs a purely greedy version of the simulated annealing algorithm, where only swaps that reduce the cost metric (HPWL) are accepted.  Implement this in `void Design::greedyAnnealing(int seed)`. 
+  * Make sure your algorithm is deterministic.  It should produce the same result for the same seed.
+  * Your algorithm should repeatedly select two random moveable (non-I/O) x,y positions, and tentatively swap them.  If the swap reduces the HPWL, accept the swap.  If not, reject the swap.  Make sure your algorithm allows you to swap a populated tile with an empty tile.
+  * You should exit your loop after 1000 consecutive failed swaps.
+  
 
-### Overlap Value
+### Part 2: Simulated Annealing
+Implement a simulated annealing algorithm that:
+1. Performs an initial placement.  This can be done again using `void Design::randomizePlacement(int seed)`.
+1. Performs a simulated annealing algorithm.  Implement this in `void Design::simulatedAnnealing(int seed)`. 
+  * Make sure your algorithm is deterministic.  It should produce the same result for the same seed.
+  * Your algorithm should repeatedly select two random moveable (non-I/O) x,y positions, and tentatively swap them.  Use the exponential equation discussed in class to determine whether to accept the swap.
+  * Your algorithm should contain two loops.  The inner loop should try `N` swaps, where you can choose how `N` is determined.  The outer loop should decrease the temperature on each execution of the inner loop. 
+  * You can choose your initial temperature, cooling schedule, and outer loop exit condition.  
+  
+### Part 3: Exploration
+Explore some form of optimization to improve the quality of your result.  You can choose to explore optimizations that affect runtime or quality of result (QoR).  Some ideas include:
+  * Different cooling schedules
+  * Different initial temperatures
+  * Different ways to determine `N`
+  * Different ways to determine an initial placement
+  * Restrictions on swap distance (rlim), depending on temperature
+  * More efficient ways to keep track of HPWL and calculate cost deltas (if you use the provided function, it will recalculate the entire HPWL each time it is called)
 
-The code will evaluate your overlap by splitting the chip into a 10x10 grid, and then checking how many blocks are assigned to each grid location.  Any blocks in excess of 2 per grid location will be added to the *Overlap Cost*.  Try to spread *cct3* to obtain an overlap score of <= 15.
-
-### Exploration
-
-Explore some form of optimization to improve the quality of your result.  
- 
 ## Report and Submission
 
-1. A table indicating initial HPWL, final HPWL and final Overlap Cost for each circuit.
-1. A description of your spreading algorithm.  
-1. A description of any optimizations you performed.
+1. Describe your simulated annealing algorithm, including a description of your initial temperature, cooling schedule, and outer loop exit condition, and how you determined `N`. This can incorporate the optimizations you explored in Part 3.
+
+1. Include a table of results for the various circuits.  This can include the optimizations you explored in Part 3.  The table should include the following data:
+
+| Circuit | Random HPWL | Greedy HPWL | Simulated Annealing HPWL | Relative HPWL | Simulated Annealing Runtime (s) | 
+|---------|-------------|-------------|--------------------------|---------------|-----------------------------|
+| small   |             |             |                          |               |                             |
+| med1    |             |             |                          |                             |
+| med2    |             |             |                          |                             |
+| large1  |             |             |                          |                             |
+| large2  |             |             |                          |                             |
+| xl      |             |             |                          |                             |
+| huge    |             |             |                          |                             |
+| \<example row\> | 8599 | 5447 | 5139 | 0.94 | 6
+
+
+1. Describe the optimizations you explored in Part 3, and provide results demonstrating how your optimization(s) impact runtime or QoR for at least one circuit.  For example, you might include the following:
+
+    **Optimization 1**
+
+    *Discussion of optimization 1*
+
+    | Circuit | HPWL without optimization | HPWL with optimization | Relative HPWL |
+    | med 1   | 5000  | 4560 | 0.90 | 
+
+
+    **Optimization 2**
+
+    *Discussion of optimization 2*
+
+    | Circuit | Runtime without optimization | Runtime with optimization | Relative Runtime |
+    | large1  | 10 | 8 | 0.80 |
 
 See [Submission Instructions]({% link _pages/submission.md  %}).
 
