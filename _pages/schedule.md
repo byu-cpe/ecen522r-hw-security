@@ -14,12 +14,12 @@ order: 2
 |3 (Jan 22)     |                               | Routing Cont'd                |                               | Placement                     |                       |
 |4 (Jan 29)     |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 1 Due 11:59pm** | 
 |5 (Feb 5)      |                               | NO CLASS                      | **Paper Review #1 Due, 2pm**  | Paper Discuss #1 & Lab 1 Help |                       |
-|6 (Feb 12)     |                               |                               | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 &            | **Ex. 1 Due 11:59pm** |
+|6 (Feb 12)     |                               | Lab 2, Placement              | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 &            | **Ex. 1 Due 11:59pm** |
 |7 (Feb 19)     |                               |                               |                               | TBD                           |                       |
-|8 (Feb 26)     |                               |                               | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            |                       |
-|9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            |                       |
+|8 (Feb 26)     |                               |                               | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
+|9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            | **Ex. 2 Due 11:59pm** |
 |10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            |                       |
-|11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      |                       |
+|11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 3 Due 11:59pm** |
 |12 (Mar 25)    |                               |                               | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 &            |                       |
 |13 (Apr 1)     |                               |                               | **Paper Review #7 Due, 2pm**  | Paper Discuss #7 &            |                       |
 |14 (Apr 8)     |                               |                               |                               |                               |                       |
