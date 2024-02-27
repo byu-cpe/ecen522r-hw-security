@@ -15,8 +15,8 @@ order: 2
 |4 (Jan 29)     |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 1 Due 11:59pm** | 
 |5 (Feb 5)      |                               | NO CLASS                      | **Paper Review #1 Due, 2pm**  | Paper Discuss #1 & Lab 1 Help |                       |
 |6 (Feb 12)     |                               | Lab 2, Placement              | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 & Partitioning | **Ex. 1 Due 11:59pm** |
-|7 (Feb 19)     |                               | NO CLASS - Monday Instruction |                               | TBD                           |                       |
-|8 (Feb 26)     |                               |                               | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
+|7 (Feb 19)     |                               | NO CLASS - Monday Instruction |                               | Partitioning                  |                       |
+|8 (Feb 26)     |                               | Packing                       | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
 |9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            | **Ex. 2 Due 11:59pm** |
 |10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            |                       |
 |11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 3 Due 11:59pm** |
