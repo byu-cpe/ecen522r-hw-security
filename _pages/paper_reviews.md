@@ -28,7 +28,7 @@ Sign up on Slack (see `#paper_review` channel), as a group of 2, to lead a paper
 * You should read over the paper reviews and prepare slides to lead a class discussion.  
 * The class discussion will be 35-40 minutes long, and should include:
   * An overview of the paper, discussing key technical contributions, making sure to explain technical details that classmates may not understand (15 min max)
-  * Lead a discussion about what makes the technical contribution and results of the paper interesting, important, or novel (10-15 minutes)
+  * Lead a discussion about students' critiques of the paper.  Discuss the pros and cons of the technical work.  Include in your slides points of critique or support from student paper reviews, and lead a class discussion about the merit of these comments. (15 minutes)
   * Lead a discussion about the style of the paper, and what elements of the paper students liked or did not like about how the paper was presented or organized. (5-10 minutes)
 
 **Remember:** You are primarily a discussion moderator.  Don't talk too much, and make sure to engage the class in discussion.  You should not be lecturing for the entire time.
