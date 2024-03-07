@@ -84,7 +84,7 @@ You should create a design in Vivado that you will import into RapidWright.  You
 
 In Vivado you should perform *Implementation*, and then export both an EDIF netlist (you can do this using `write_edif`) and a checkpoint (using `write_checkpoint`).
 
-Here is a design you can use if you like: [ecen427.dcp]({% assets/ecen427.dcp %}) [ecen427.edf]({% assets/ecen427.edf %})
+Here is a design you can use if you like: [ecen427.dcp]({% link assets/ecen427.dcp %}) [ecen427.edf]({% link assets/ecen427.edf %})
 
 
 Make sure you can import your design into RapidWright and can print the number of Cells and Nets.
