@@ -28,7 +28,7 @@ Sign up on Slack (see `#paper_review` channel), as a group of 2, to lead a paper
 * You should read over the paper reviews and prepare slides to lead a class discussion.  
 * The class discussion will be 35-40 minutes long, and should include:
   * An overview of the paper, discussing key technical contributions, making sure to explain technical details that classmates may not understand (15 min max)
-  * Lead a discussion about what makes the technical contribution and results of the paper interesting, important, or novel (10-15 minutes)
+  * Lead a discussion about students' critiques of the paper.  Discuss the pros and cons of the technical work.  Include in your slides points of critique or support from student paper reviews, and lead a class discussion about the merit of these comments. (15 minutes)
   * Lead a discussion about the style of the paper, and what elements of the paper students liked or did not like about how the paper was presented or organized. (5-10 minutes)
 
 **Remember:** You are primarily a discussion moderator.  Don't talk too much, and make sure to engage the class in discussion.  You should not be lecturing for the entire time.
@@ -45,11 +45,11 @@ See the [schedule]({% link _pages/schedule.md %}) for the paper review due dates
 | 2 | [Kevin Murray, Sheng Zhong, Vaughn Betz, "AIR: A Fast but Lazy Timing-Driven FPGA Router", ASP-DAC 2020.](https://ieeexplore.ieee.org/document/9045175) |
 | 3 | [Andrew Gunter, Steven Wilton, "A Machine Learning Approach for Predicting the Difficulty of FPGA Routing Problems", FCCM 2023.](https://ieeexplore.ieee.org/document/10171477)
 | 4 | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) 
-| 5 |
-| 6 |
+| 5 | [Licheng Gui et al., "RapidStream: Parallel Physical Implementation of FPGA HLS Designs", FPGA 2022.](https://dl.acm.org/doi/abs/10.1145/3490422.3502361)
+| 6 | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956)
 | 7 |
 
-<!-- | 2 | **Feb 2** | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) |
+<!-- 
 | 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
 | 4 | **March 2** | [Junsong Wang et al., "Design Flow of Accelerating Hybrid Extremely Low Bit-Width Neural Network in Embedded FPGA", FPL 2018](https://ieeexplore.ieee.org/abstract/document/8533487) |
 | 5 | **March 19** | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956) |

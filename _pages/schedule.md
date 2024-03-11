@@ -17,8 +17,8 @@ order: 2
 |6 (Feb 12)     |                               | Lab 2, Placement              | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 & Partitioning | **Ex. 1 Due 11:59pm** |
 |7 (Feb 19)     |                               | NO CLASS - Monday Instruction |                               | Partitioning                  |                       |
 |8 (Feb 26)     |                               | Packing                       | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
-|9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            | **Ex. 2 Due 11:59pm** |
-|10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            |                       |
+|9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            |  |
+|10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            | **Ex. 2 Due 11:59pm**                      |
 |11 (Mar 18)    |                               | NO CLASS                      | **Project Proposals Due**     | NO CLASS                      | **Lab 3 Due 11:59pm** |
 |12 (Mar 25)    |                               |                               | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 &            |                       |
 |13 (Apr 1)     |                               |                               | **Paper Review #7 Due, 2pm**  | Paper Discuss #7 &            |                       |
