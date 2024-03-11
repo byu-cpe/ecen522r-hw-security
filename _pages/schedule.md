@@ -19,11 +19,12 @@ order: 2
 |8 (Feb 26)     |                               | Packing                       | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
 |9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 &            | **Ex. 2 Due 11:59pm** |
 |10 (Mar 11)    |                               |                               | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 &            |                       |
-|11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 3 Due 11:59pm** |
+|11 (Mar 18)    |                               | NO CLASS                      | **Project Proposals Due**     | NO CLASS                      | **Lab 3 Due 11:59pm** |
 |12 (Mar 25)    |                               |                               | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 &            |                       |
 |13 (Apr 1)     |                               |                               | **Paper Review #7 Due, 2pm**  | Paper Discuss #7 &            |                       |
-|14 (Apr 8)     |                               |                               |                               |                               |                       |
-|15 (Apr 15)    |                               | LAST DAY OF CLASS             |                               |                               |                       |
+|14 (Apr 8)     |                               |                               |                               | **Project Presentations**     |                       |
+|15 (Apr 15)    |                               | **Project Presentations**     |                               |                               |                       |
+|16 (Apr 22)    |                               | **Project Report Due, 11:59pm**|                              |                               |                       |
 
 
 <!-- | Week #        | Monday                        |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
