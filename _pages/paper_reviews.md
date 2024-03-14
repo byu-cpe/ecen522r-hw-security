@@ -47,7 +47,6 @@ See the [schedule]({% link _pages/schedule.md %}) for the paper review due dates
 | 4 | [M. An, G. Steffen and V. Betz, "Speeding Up FPGA Placement: Parallel Algorithms and Methods," FCCM, 2014.](http://www.eecg.utoronto.ca/~vaughn/papers/fccm2014_parallel_place.pdf) 
 | 5 | [Licheng Gui et al., "RapidStream: Parallel Physical Implementation of FPGA HLS Designs", FPGA 2022.](https://dl.acm.org/doi/abs/10.1145/3490422.3502361)
 | 6 | [Nachiket Kapre and Jan Gray, "Hoplite: Building Austere Overlay NoCs for FPGAs", FPL 2015.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7293956)
-| 7 |
 
 <!-- 
 | 3 | **Feb 16**| [Prashanth Mohan et al., "Top-down Physical Design of Soft Embedded FPGA Fabrics", FPGA 2021.](https://dl.acm.org/doi/abs/10.1145/3431920.3439297) |
