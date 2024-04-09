@@ -21,8 +21,8 @@ order: 2
 |10 (Mar 11)    |                               | Technology Mapping            | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 & FPGA Arch  | **Ex. 2 Due 11:59pm** |
 |11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      | **Project Proposals Due**  |
 |12 (Mar 25)    |                               | NO CLASS                      |                               | FPGA Arch Cont'd              | **Lab 3 Due 11:59pm** |
-|13 (Apr 1)     |                               |                               | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 &            |                       |
-|14 (Apr 8)     |                               |                               |                               | **Project Presentations**     |                       |
+|13 (Apr 1)     |                               | Logic Optimization            | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 & Power      |                       |
+|14 (Apr 8)     |                               | Power / Debug                 |                               | **Project Presentations**     |                       |
 |15 (Apr 15)    |                               | **Project Presentations**     |                               |                               |                       |
 |16 (Apr 22)    |                               | **Project Report Due, 11:59pm**|                              |                               |                       |
 
