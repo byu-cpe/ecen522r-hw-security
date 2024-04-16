@@ -24,7 +24,7 @@ order: 2
 |13 (Apr 1)     |                               | Logic Optimization            | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 & Power      |                       |
 |14 (Apr 8)     |                               | Power / Debug                 |                               | **Project Presentations**     |                       |
 |15 (Apr 15)    |                               | **Project Presentations**     |                               |                               |                       |
-|16 (Apr 22)    |                               | **Project Report Due, 11:59pm**|                              |                               |                       |
+|16 (Apr 22)    |                               | |                              |   **Project Report Due, 11:59pm**                            |                       |
 
 
 <!-- | Week #        | Monday                        |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
