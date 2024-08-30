@@ -5,7 +5,8 @@ title: Final Course Project
 short_title: Final Project
 sidebar: true
 indent: 0
-order: 4
+order: 5
+icon: fas fa-project-diagram
 ---
 
 

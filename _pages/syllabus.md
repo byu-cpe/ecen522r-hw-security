@@ -7,17 +7,15 @@ icon: fas fa-chalkboard-teacher
 ---
 
 
-## Instructor 
-Prof. Jeff Goeders, 450I EB, email: jgoeders@byu.edu, Office hours: <https://calendly.com/jgoeders/office_hours>
-
-## Course Content
-In this course, we will study the entire FPGA/VLSI CAD flow, including high-level synthesis, technology-dependent and independent optimization, partitioning, floorplanning and placement, and routing. For each stage, we will identify the problem to be solved, and discuss optimization algorithms to solve the problem. Some of these optimization algorithms include simulated annealing, dynamic programming, branch-and-bound, and various graph algorithms (eg. Shortest-path algorithms). There will be an emphasis on CAD algorithms targeting FPGA, but will also discuss CAD for custom chip design. Note that this course is not about the use of CAD tools; rather, it is about the optimization algorithms that are used in these tools.  We will also cover current research in the area, and several lectures on student selected topics.
+## Instructors
+* Jeff Goeders, 450I EB, email: jgoeders@byu.edu, Office hours: <https://calendly.com/jgoeders/office_hours>
+* Stacey Son
 
 ## Prerequisites
-Good understanding of digital logic.  Solid programming skills, especially C/C++.  If you are unsure if you have the necessary experience, contact the instructor.
+There are no formal prerequisites for this course.  Experience with C programming and digital logic is helpful.  If you are unsure if you have the necessary experience, contact the instructor.
 
 ## Textbook
-There is no textbook; reading will be taken primarily from research papers.
+Hardware Security: A Hands-on Learning Approach, by Swarup Bhunia and Mark Tehranipoor. [Available at Amazon](https://www.amazon.com/Hardware-Security-Hands-Learning-Approach/dp/0128124776)
 
 ### Sharing Source Code 
 Sharing your source code  is prohibited and is a violation of the Honor Code.  **This includes posting your lab code and solutions on a public website such as a public Github repository.**  You will be provided with a private Github repository to store your code.
@@ -25,23 +23,17 @@ Sharing your source code  is prohibited and is a violation of the Honor Code.  *
 
 ## Grade Breakdown
 
-| Component                 | % of Grade    |
-|---------------------------|---------------|
-| Lab Programming Assignments (3)   | 30            |
-| Lab Exercises (2)         | 10            |
-| Paper Reviews             | 20            |
-| Leading Class Paper Discussion              | 15            |
-| Final Project             | 20            |
-| Participation             | 5            |
+| Component                         | % of Grade    |
+|-----------------------------------|---------------|
+| Lab Assignments       | 60            |
+| Student Lecture/Presentation      | 10            |
+| Participation                     | 10            |
+| Final Project                     | 20            |
 
-### Programming Assignments
- There will be three assignments. In each assignment, you will implement one of the CAD algorithms discussed in class, and evaluate its performance.  These 
-assignments make up the largest part of your grade, and as such, are quite large.  Allow yourself plenty of time to complete them.  Assignments and due dates will be posted on the course website.
+### Lab Assignments
+There will be weekly lab assignments.  These will be completed using the HAHAv3 board, available in the embedded lab (EB438).
 
-### Lab Exercises
-There will be two guided exercises that will give you experience using open-source CAD tools.  These will be much smaller than the programming assignments.
-
-### Paper Reviews & Class Paper Discussion
+### Student Lecture/Presentation
 You will be asked to complete several paper reviews over the course of the semester.  In addition, each student will lead a class discussion on one of the papers. See [Paper Reviews]({% link _pages/paper_reviews.md %}).
 
 ### Final Project

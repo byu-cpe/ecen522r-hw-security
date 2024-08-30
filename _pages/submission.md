@@ -5,7 +5,8 @@ title: Lab Submission
 short_title: Lab Submission
 indent: 0
 sidebar: true
-order: 5
+order: 4
+icon: fas fa-upload
 ---
 
 

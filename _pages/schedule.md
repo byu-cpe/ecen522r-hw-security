@@ -7,25 +7,32 @@ icon: fa fa-calendar
 order: 2
 ---
 
-| Week #        | Monday                        |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
-|---------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
-|1 (Jan 8)      |                               | Course Intro, FPGA Arch.      |                               | Routing                       |                       |
-|2 (Jan 15)     |                               | Routing                       |                               | NO CLASS                      |                       |
-|3 (Jan 22)     |                               | Routing Cont'd                |                               | Placement                     |                       |
-|4 (Jan 29)     |                               | NO CLASS                      |                               | NO CLASS                      | **Lab 1 Due 11:59pm** | 
-|5 (Feb 5)      |                               | NO CLASS                      | **Paper Review #1 Due, 2pm**  | Paper Discuss #1 & Lab 1 Help |                       |
-|6 (Feb 12)     |                               | Lab 2, Placement              | **Paper Review #2 Due, 2pm**  | Paper Discuss #2 & Partitioning | **Ex. 1 Due 11:59pm** |
-|7 (Feb 19)     |                               | NO CLASS - Monday Instruction |                               | Partitioning                  |                       |
-|8 (Feb 26)     |                               | Packing                       | **Paper Review #3 Due, 2pm**  | Paper Discuss #3 &            | **Lab 2 Due 11:59pm** |
-|9 (Mar 4)      |                               | NO CLASS                      | **Paper Review #4 Due, 2pm**  | Paper Discuss #4 & Ex 2       |                       |
-|10 (Mar 11)    |                               | Technology Mapping            | **Paper Review #5 Due, 2pm**  | Paper Discuss #5 & FPGA Arch  | **Ex. 2 Due 11:59pm** |
-|11 (Mar 18)    |                               | NO CLASS                      |                               | NO CLASS                      | **Project Proposals Due**  |
-|12 (Mar 25)    |                               | NO CLASS                      |                               | FPGA Arch Cont'd              | **Lab 3 Due 11:59pm** |
-|13 (Apr 1)     |                               | Logic Optimization            | **Paper Review #6 Due, 2pm**  | Paper Discuss #6 & Power      |                       |
-|14 (Apr 8)     |                               | Power / Debug                 |                               | **Project Presentations**     |                       |
-|15 (Apr 15)    |                               | **Project Presentations**     |                               |                               |                       |
-|16 (Apr 22)    |                               | |                              |   **Project Report Due, 11:59pm**                            |                       |
+| Week #        | Monday                            |  Tuesday  | Wednesday                         | Thursday                      |  Friday               |
+|---------------|-------------------------------    |---------  |-------------------------------    |-------------------------------|-----------------------|
+|1 (Sep 2)      |                                   |           | Intro to HW Security (Stacey Son) |                               |                       |
+|2 (Sep 9)      | TBD                               |           | TBD                               |                               |                       |
+|3 (Sep 16)     | TBD                               |           | TBD                               |                               |                       |
+|4 (Sep 23)     | CHERI Memory Safety (Stacey Son)  |           | ARM PAC & MTE (Stacey Son)        |                               |                       |
+|5 (Sep 30)     | TBD                               |           | TBD                               |                               |                       |
+|6 (Oct 7)      | TBD                               |           | TBD                               |                               |                       |
+|7 (Oct 14)     | Secure Enclaves (Stacey Son)      |           | TBD                               |                               |                       |
+|8 (Oct 21)     | TBD                               |           | TBD                               |                               |                       |
+|9 (Oct 28)     | TBD                               |           | TBD                               |                               |                       |
+|10 (Nov 4)     | TBD                               |           | TBD                               |                               |                       |
+|11 (Nov 11)    | TBD                               |           | TBD                               |                               |                       |
+|12 (Nov 18)    | OS Security Topics (Stacey Son)   |           | TBD                               |                               |                       |
+|13 (Nov 25)    | NO CLASS (Friday Instruction)     |           | NO CLASS (Holiday)                |                               |                       |
+|14 (Dec 2)     | TBD                               |           | TBD                               |                               |                       |
+|15 (Dec 9)     | TBD                               |           | TBD                               |                               |                       |
 
+<!-- Topics:
+
+Ch 1: Intro to HW Security (1.5) - Slide set 1 - 
+Cryptography (1) - Slide set 2
+Hashing (1) - ???
+
+
+ -->
 
 <!-- | Week #        | Monday                        |  Tuesday                      | Wednesday                     | Thursday                      |  Friday               |
 |---------------|-------------------------------|-------------------------------|-------------------------------|-------------------------------|-----------------------|
