@@ -11,26 +11,20 @@ icon: fas fa-project-diagram
 
 
 The project for this course is very open-ended. You can do anything you want, as long as it has something
-to do with the course material. This might include:
+to do with hardware security.
 
-  - Something related to FPGA CAD algorithms:
-    * Implementing and evaluating a known algorithm
-    * Comparing two or more existing algorithms
-    * Improving an existing algorithm
-    * Investigating the effects of various parameters on an algorithm’s performance
-    * Coming up with an entirely new algorithm to solve some problem
-    * Applying an existing algorithm to a different problem
-    * Investigating interactions between the target technology and a CAD tool
-    * A theoretical analysis of some algorithm
-  - Contribution to Open-Source CAD tools:
-    * <https://github.com/SymbiFlow/ideas/issues>
-    * <https://github.com/verilog-to-routing/vtr-verilog-to-routing/issues>
+** Your project must include some hand-on aspect.** This could be trying out an existing tool, writing some code, doing something new on the HaHa board, etc.  The project must go beyond just reading papers and writing a report. If you are unsure if your project meets this requirement, please ask.
+
+Here are some ideas for projects:
+ * Consult Stacey's website at <https://hwsec.son.org/> for topics.
+ * Check out projects on Youtube, Hackaday, or other websites.
+ * Look at recent research papers, and find those with open-source tools.  Try out their tools and report on your experience.
+ * Stacey may have access to some CHERI hardware that you could use for a project.
   
-You can work alone, or in a group of 2 or 3.  As a rule-of-thumb, the level of difficulty
-expected is: Number of people * level-of-difficulty-for-each-assignment * 2
+You can work alone, or in a group of 2 or 3.  The more people in your group, the more I will expect from your project.  
 
 ## Project Deliverables 
-There will be three deliverables for the project:
+There will be three deliverables for the project.  
 
 1. **Project Proposal** In order to ensure that everyone has a suitable project, I am asking you provide a project proposal. You should indicate the project title and the members of your group (if you are not working on your own). You should also write enough to convince me that the project is interesting, is of a suitable difficulty, and that you have thought about some of the potential challenges.  Please email me the proposal.
 
