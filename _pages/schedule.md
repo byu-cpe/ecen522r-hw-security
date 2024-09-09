@@ -9,9 +9,9 @@ order: 2
 
 | Week #        | Monday                                                            |  Tuesday  | Wednesday                                                         | Thursday                      |  Friday               |
 |---------------|-------------------------------                                    |---------  |-------------------------------                                    |-------------------------------|-----------------------|
-|1 (Sep 2)      |                                                                   |           | Intro to HW Security <span style="color:blue">(Stacey Son)</span> |                               | **Lab 0 Due 11:59pm** |
-|2 (Sep 9)      | Class overview, Intro (Ch 1)                                      |           | OS Security Topics <span style="color:blue">(Stacey Son)</span>   |                               | **Lab 1 Due 11:59pm** |
-|3 (Sep 16)     | Cryptography Overview                                             |           | VLSI Design Overview (Ch 2,3)                                     |                               |                       |
+|1 (Sep 2)      |                                                                   |           | Intro to HW Security <span style="color:blue">(Stacey Son)</span> |                               |  |
+|2 (Sep 9)      | Class overview, Intro (Ch 1)                                      |           | OS Security Topics <span style="color:blue">(Stacey Son)</span>   |                               | **Lab 0 Due 11:59pm** |
+|3 (Sep 16)     | Cryptography Overview                                             |           | VLSI Design Overview (Ch 2,3)                                     |                               | **Lab 1 Due 11:59pm**                      |
 |4 (Sep 23)     | HW Security Primitives (Ch 12)                                    |           | Ch 12, cont'd                                                     |                               |                       |
 |5 (Sep 30)     | Hardware Trojans (Ch 5)                                           |           | HW Metering, Supply Chain (Ch 6)                                  |                               |                       |
 |6 (Oct 7)      | Counterfeiting (Ch 6)                                             |           | Secure IP (Ch 7)                                  |                               |                       |
