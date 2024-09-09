@@ -7,23 +7,23 @@ icon: fa fa-calendar
 order: 2
 ---
 
-| Week #        | Monday                            |  Tuesday  | Wednesday                         | Thursday                      |  Friday               |
-|---------------|-------------------------------    |---------  |-------------------------------    |-------------------------------|-----------------------|
-|1 (Sep 2)      |                                   |           | Intro to HW Security <span style="color:blue">(Stacey Son)</span> |                               |                       |
-|2 (Sep 9)      | Class overview, Intro (Ch 1)      |           | Ch 1 cont'd, Labs overview        |                               |                       |
-|3 (Sep 16)     | Cryptography Overview             |           | VLSI Design Overview (Ch 2,3)     |                               |                       |
+| Week #        | Monday                                                            |  Tuesday  | Wednesday                                                         | Thursday                      |  Friday               |
+|---------------|-------------------------------                                    |---------  |-------------------------------                                    |-------------------------------|-----------------------|
+|1 (Sep 2)      |                                                                   |           | Intro to HW Security <span style="color:blue">(Stacey Son)</span> |                               | **Lab 0 Due 11:59pm**     |
+|2 (Sep 9)      | Class overview, Intro (Ch 1)                                      |           | Ch 1 cont'd, Labs overview                                        |                               | **Lab 1 Due 11:59pm**                      |
+|3 (Sep 16)     | Cryptography Overview                                             |           | VLSI Design Overview (Ch 2,3)                                     |                               |                       |
 |4 (Sep 23)     | CHERI Memory Safety <span style="color:blue">(Stacey Son)</span>  |           | ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>        |                               |                       |
-|5 (Sep 30)     | HW Security Primitives (Ch 12)    |           | Ch 12, cont'd                     |                               |                       |
-|6 (Oct 7)      | Hardware Trojans (Ch 5)           |           | HW Metering, Supply Chain (Ch 6)  |                               |                       |
-|7 (Oct 14)     | Secure Enclaves <span style="color:blue">(Stacey Son)</span>      |           | Counterfeiting (Ch 6)  |                               |                       |
-|8 (Oct 21)     | Secure IP (Ch 7)                  |           | Side Channels (Ch 8)              |                               |                       |
-|9 (Oct 28)     | Ch 8 Cont'd                       |           | Fault Injection Attacks (Ch 10)   |                               |                       |
-|10 (Nov 4)     | *Student Presentations*             |           | *Student Presentations*             |                               |                       |
-|11 (Nov 11)    | *Student Presentations*             |           | *Student Presentations*             |                               |                       |
-|12 (Nov 18)    | OS Security Topics <span style="color:blue">(Stacey Son)</span>   |           | Physical Attacks (Ch 10)                               |                               |                       |
-|13 (Nov 25)    | NO CLASS (Friday Instruction)     |           | NO CLASS (Holiday)                |                               |                       |
-|14 (Dec 2)     | Hardware Obfuscation (Ch 14)          |           | Test-Oriented Attacks (Ch 9), PCB Security (Ch 11)      |                               |                       |
-|15 (Dec 9)     | *Final Project Presentations*      |           | *Final Project Presentations*                               |                          ,     |                       |
+|5 (Sep 30)     | HW Security Primitives (Ch 12)                                    |           | Ch 12, cont'd                                                     |                               |                       |
+|6 (Oct 7)      | Hardware Trojans (Ch 5)                                           |           | HW Metering, Supply Chain (Ch 6)                                  |                               |                       |
+|7 (Oct 14)     | Secure Enclaves <span style="color:blue">(Stacey Son)</span>      |           | Counterfeiting (Ch 6)                                             |                               |                       |
+|8 (Oct 21)     | Secure IP (Ch 7)                                                  |           | Side Channels (Ch 8)                                              |                               |                       |
+|9 (Oct 28)     | Ch 8 Cont'd                                                       |           | Fault Injection Attacks (Ch 10)                                   |                               |                       |
+|10 (Nov 4)     | *Student Presentations*                                           |           | *Student Presentations*                                           |                               |                       |
+|11 (Nov 11)    | *Student Presentations*                                           |           | *Student Presentations*                                           |                               |                       |
+|12 (Nov 18)    | OS Security Topics <span style="color:blue">(Stacey Son)</span>   |           | Physical Attacks (Ch 10)                                          |                               |                       |
+|13 (Nov 25)    | NO CLASS (Friday Instruction)                                     |           | NO CLASS (Holiday)                                                |                               |                       |
+|14 (Dec 2)     | Hardware Obfuscation (Ch 14)                                      |           | Test-Oriented Attacks (Ch 9), PCB Security (Ch 11)                |                               |                       |
+|15 (Dec 9)     | *Final Project Presentations*                                     |           | *Final Project Presentations*                                     |                               |                       |
 
 <!-- Topics:
 
