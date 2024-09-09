@@ -34,7 +34,7 @@ Sharing your source code  is prohibited and is a violation of the Honor Code.  *
 There will be weekly lab assignments.  These will be completed using the HAHAv3 board, available in the embedded lab (EB438).
 
 ### Student Lecture/Presentation
-You will be asked to complete several paper reviews over the course of the semester.  In addition, each student will lead a class discussion on one of the papers. See [Paper Reviews]({% link _pages/paper_reviews.md %}).
+Students will give a lecture on a security topic of their choice.  See [Student Lecture]({% link _pages/student_lecture.md %}) for more details.
 
 ### Final Project
 Students will completed a project related to the topics covered in the course and present the results from this project in a class presentation. Projects should be completed in groups of 3 (or 2 if necessary).  See [Final Project]({% link _pages/final_project.md %}) for more details.
