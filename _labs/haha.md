@@ -11,6 +11,14 @@ under_construction: false
 
 1. Complete your repository setup, following the instructions on [this page]({% link _pages/lab_instructions.md %}).
 
+1. Install the GOWIN FPGA tools on your home drive.  To do this, you only need to follow step #2 and #3 of the "Install GOWIN FPGA Designer" section of *docs/HaHav3_Software_Installation_Tutorial_Linux.pdf*.
+
+    To run the GOWIN tools on your system, simply run:
+
+        ~/GOWIN/IDE/bin/gw_ide
+
+
+
 1. Follow the instructions in the *lab0/Experiment_0_self_test_HaHav3.pdf* file.
 
 ## What to Submit
