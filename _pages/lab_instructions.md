@@ -21,7 +21,7 @@ Code and submission is done using Github Classroom.
         cd ..
         rm -rf ecen522r_security_student.git
 
-1. Go to LearningSuite and complete the "Github URL" quiz.  You must do this to receive credit for labs in the course.
+1. **Go to LearningSuite and complete the "Github URL" quiz.  You must do this to receive credit for labs in the course.**
 
 
 ## Submission
