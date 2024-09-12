@@ -25,7 +25,7 @@ under_construction: false
 
 ## What to Submit
 
-Create a lab report document that contains the items detailed in the *lab0/Experiment_0_self_test_HaHav3.pdf* file.   Make sure to save this as *lab0/report.pdf*, and submit using the [submission instructions]({% link _pages/lab_instructions.md %}).
+Create a lab report document that contains the items detailed in the *lab0/Experiment_0_self_test_HaHav3.pdf* file.   Make sure to save this as *lab0/report.pdf*, and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 ## Board Issues
 I will post any issues with boards here:

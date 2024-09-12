@@ -12,7 +12,7 @@ under_construction: false
 
 ## What to Submit
 
-Create a lab report document as described in the instructions.  Make sure to save this as *lab1/report.pdf*, and submit using the [submission instructions]({% link _pages/lab_instructions.md %}).
+Create a lab report document as described in the instructions.  Make sure to save this as *lab1/report.pdf*, and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 ## Helpful Tips
 
