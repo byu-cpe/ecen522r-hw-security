@@ -29,7 +29,7 @@ Create a lab report document that contains the items detailed in the *lab0/Exper
 
 ## Board Issues
 I will post any issues with boards here:
-* Board 1: Accelerometer is not working.  
+* Board 1, Board 5: Accelerometer is not working.  
 
 ## Helpful Tips
 
