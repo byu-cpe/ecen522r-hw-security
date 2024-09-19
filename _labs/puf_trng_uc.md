@@ -38,7 +38,7 @@ You can then compile your code by running `make` in the directory where your cod
 
 The [sw_resources](https://github.com/byu-cpe/ecen522r_security_student/tree/main/sw_resources) directory contains common code for the HaHa board that you can use across multiple labs.  The [haha.h](https://github.com/byu-cpe/ecen522r_security_student/blob/main/sw_resources/haha.h) file is probably the most useful file to look over.  It contains several `haha_uart_*` functions that you can use to print to the UART.
 
-You will notice the haha.h has this line:
+You will notice that *haha.h* has this line:
 
         #include <avr/io.h>
 
