@@ -8,7 +8,7 @@ under_construction: false
 
 ## Instructions
 
-1. Follow the instructions in the *lab1/Bus_snooping_HaHav3.pdf* file.
+1. Follow the instructions in the [lab1/Bus_snooping_HaHav3.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab1/Bus_snooping_HaHav3.pdf) file.
 
 ## What to Submit
 

@@ -19,7 +19,7 @@ under_construction: false
 
 
 
-1. Follow the instructions in the *lab0/Experiment_0_self_test_HaHav3.pdf* file.
+1. Follow the instructions in the [lab0/Experiment_0_self_test_HaHav3.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab0/Experiment_0_self_test_HaHav3.pdf) file.
 
     * For this lab, you will program the microcontroller using the avrdude command found on page 10 of *docs/HaHav3_Software_Installation_Tutorial_Linux.pdf*.
 

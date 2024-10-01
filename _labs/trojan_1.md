@@ -10,7 +10,7 @@ under_construction: false
 
 You will need to merge in the latest changes from the starter code repository before getting started.  Refer back to the [Lab Instructions]({% link _pages/lab_instructions.md %}) for how to do this.
 
-Follow the instructions in the *lab3/trojan_1.pdf* file.
+Follow the instructions in the [lab3/trojan_1.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab3/trojan_1.pdf) file.
 
 ## What to Submit
 
