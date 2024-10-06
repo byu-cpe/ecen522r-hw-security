@@ -24,17 +24,21 @@ Make sure your submission tag on Github includes the following files:
 ## Helpful Tips
 
 ### Python Packages
-You will need several Python packages to complete the lab.  I recommend you creating a Python virtual environment to install these packages.  A Makefile has been provided in the *lab6/* directory that will create a virtual environment and install the necessary packages.  Run 
+You will need several Python packages to complete the lab.  I recommend you create a Python virtual environment to install these packages.  A Makefile has been provided in the *lab6/* directory that will create a virtual environment and install the necessary packages.  Run 
     
     make env
     
-to create the virtual environment, and `source .venv/bin/activate` to activate it in your terminal.
+to create the virtual environment, and 
+
+    source .venv/bin/activate
+    
+to activate it in your terminal.
 
 ### DES Selection 
 
 This lab requires you to determine R0 and R1 values internal to the DES algorithm. Rather than having you implement this portion of the DES algorithm, I suggest you use a pre-existing implementation, and then modify it as needed.  I have provided *des.py* in the *lab6/* directory that you can use.  This code is from <https://medium.com/@ziaullahrajpoot/data-encryption-standard-des-dc8610aafdb3>.
 
-I suggest copying the *encrypt* function to a new function that simply returns the *R0* and *R1* values (keep the original *encrypt* function in case you need it later).  You can return immediately after the *R1* value is computed as you don't actually need the remainder of the DES algorithm.  Add an additional parameter to the function that allows you to override the round one key with a provided binary string.  
+I suggest copying the *encrypt* function to a new function that simply returns the *R0* and *R1* values (keep the original *encrypt* function in case you need it later).  You can return immediately after the *R1* value is computed as you don't actually need the remainder of the DES algorithm.  Add an additional parameter to the function that allows you to override the round one key with a provided binary string.  With this in place, it will be simple to create a selection function that sorts the power traces based on whether your bit of choice changes from *R0* to *R1*.
 
 ### DES Implementation
 
