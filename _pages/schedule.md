@@ -24,8 +24,8 @@ order: 2
 |13 (Nov 25)    | NO CLASS (Friday Instruction)                                     |           | NO CLASS (Holiday)                                                |                               |                       |
 |14 (Dec 2)     | Hardware Obfuscation (Ch 14), Test-Oriented Attacks (Ch 9), PCB Security (Ch 11)   |           |   *Final Project Presentations*              |                               |                       |
 |15 (Dec 9)     | *Final Project Presentations*                                     |           | *Final Project Presentations*                                     |                               |                       |
+|16 (Dec 16)    |                                                                   |           | **Final Project Reports due, 11:59pm**                            | 
 
-<!-- Topics:
 
 
 
