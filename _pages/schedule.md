@@ -19,10 +19,10 @@ order: 2
 |8 (Oct 21)     | Secure Enclaves <span style="color:blue">(Stacey Son)</span>      |           | Physical Attacks (Ch 10)                                          |                               | **Lab 6 Due 11:59pm**                      |
 |9 (Oct 28)     | Fault Injection Attacks (Ch 10)                                   |           | TBD                                                               |                               | **Lab 7 Due 11:59pm**                      |
 |10 (Nov 4)     | *Student Presentations*                                           |           | *Student Presentations*                                           |                               | **Lab 8 Due 11:59pm**                      |
-|11 (Nov 11)    | *Student Presentations*                                           |           | *Student Presentations*                                           |                               |                       |
+|11 (Nov 11)    | *Student Presentations*                                           |           | *Student Presentations*                                           |                               | **Project Proposal**                      |
 |12 (Nov 18)    | ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>        |           | CHERI Memory Safety <span style="color:blue">(Stacey Son)</span>  |                               |                       |
 |13 (Nov 25)    | NO CLASS (Friday Instruction)                                     |           | NO CLASS (Holiday)                                                |                               |                       |
-|14 (Dec 2)     | Hardware Obfuscation (Ch 14)                                      |           | Test-Oriented Attacks (Ch 9), PCB Security (Ch 11)                |                               |                       |
+|14 (Dec 2)     | Hardware Obfuscation (Ch 14), Test-Oriented Attacks (Ch 9), PCB Security (Ch 11)   |           |   *Final Project Presentations*              |                               |                       |
 |15 (Dec 9)     | *Final Project Presentations*                                     |           | *Final Project Presentations*                                     |                               |                       |
 
 <!-- Topics:
