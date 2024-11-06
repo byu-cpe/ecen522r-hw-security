@@ -26,7 +26,7 @@ You can work alone, or in a group of 2 or 3.  The more people in your group, the
 ## Project Deliverables 
 There will be three deliverables for the project.  
 
-1. **Project Proposal** In order to ensure that everyone has a suitable project, I am asking you provide a project proposal. You should indicate the project title and the members of your group (if you are not working on your own). You should also write enough to convince me that the project is interesting, is of a suitable difficulty, and that you have thought about some of the potential challenges.  Please email me the proposal.
+1. **Project Proposal** In order to ensure that everyone has a suitable project, I am asking you provide a project proposal. You should indicate the project title and the members of your group (if you are not working on your own). You should also write enough to convince me that the project is interesting, is of a suitable difficulty, and that you have thought about some of the potential challenges.  In your proposal you should identify what components of your project present the greatest risk, and what contingencies you plan on in case you run into problems completing your project. Please email me the proposal.
 
 1. **Presentation** An interim class presentation where you present the current progress of your project. In this presentation, you will describe the problem you are trying to solve, any relevant previous work, and your approach.  You should have some results to present.  Presentations should be 10 minutes for single presenters and 15-17 minutes for groups of 2.
 
