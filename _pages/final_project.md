@@ -32,7 +32,7 @@ There will be three deliverables for the project.
 
 2. **Final Technical Report**  This should be prepared in IEEE conference format (10pt, two columns), with a 4 page limit.  Introduce your problem, describe what you implemented, and include results.  Use figures where appropriate to help describe your project.  If your project is better presented in another format (jupyter notebook page, wiki page), discuss this with the instructor.  
 
-    Email your final report to jgoeders@byu.edu.  In most cases I would expect that you have your source code available on Github has a public or private repository.  Please include a link to this repository in your submission email. If your repository is private, please invite me (Github username is *jgoeders*).
+    Email your final report to jgoeders@byu.edu.  In most cases I would expect that you have your source code available on Github as a public or private repository.  Please include a link to this repository in your submission email. If your repository is private, please invite me (Github username is *jgoeders*).
 
 See [Schedule]({% link _pages/schedule.md %}) for deadlines of each deliverable.
 
