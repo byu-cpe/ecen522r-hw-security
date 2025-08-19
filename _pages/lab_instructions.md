@@ -5,6 +5,7 @@ title: "Lab Instructions"
 order: 5
 sidebar: true
 under_construction: false
+icon: fas fa-person-chalkboard
 ---
 
 ## Setup
