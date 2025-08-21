@@ -71,25 +71,38 @@ Programmer* in the menu bar.
         
         The project creation process is just needed to unlock the GOWIN Analyzer Oscilloscope (GAO) tool. 
     
-    * Go to *Tools > Gowin Analyzer Oscilloscope*. Press the folder button. Navigate to the location of the provided file (`self_test_fpga_haha3.rao`) and click *Open*. Check *Enable Programmer*. Press the button with the magnifying glass. Select *GW1N-9C*.
-Check the box below Enable. Under Fs File, click the empty field. Navigate to the location of the provided file (self_test_fpga_haha3.fs).
-Press the small green play button (under Enable Programmer) to program the FPGA. After successfully programming, press the F2 key.
-You should see the two signals.
-a. Deliverable: Attach a screenshot of the GOWIN Analyzer Oscilloscope window showing the aforementioned signals.
-b. Answer the following:
-i. What is the first signal in the oscilloscope? Where is this signal coming from on the board?
-ii. What is the second signal in the oscilloscope? Where is this signal coming from on the board?
+    * Go to *Tools > Gowin Analyzer Oscilloscope*. 
+        * Press the folder button, and navigate to the location of the provided file (`self_test_fpga_haha3.rao`), and click *Open*. 
+        * Check *Enable Programmer*, then press the button with the magnifying glass. Select *GW1N-9C*. If this device does not show up, you may need to change the *Cable* drop-down at the top.
+        * Check the box below Enable. 
+        * Under Fs File, click the empty field. Navigate to the location of the provided file (`self_test_fpga_haha3.fs`).
+        * Press the small green play button (under *Enable Programmer*, and to the left of *Frequency*) to program the FPGA. 
+        * After successfully programming, press the *Auto* button near the top, or press the F2 key shortcut.  This causes the logic analyzer to run repeatedly, allowing you to observe the signals as they change.
+    
+    * You should see the two signals. 
+        * **REPORT:** Attach a screenshot of the GOWIN Analyzer Oscilloscope window showing the aforementioned signals.
+        * **REPORT:** Answer the following:
+            * What is the first signal in the oscilloscope? Where is this signal coming from on the board?
+            * What is the second signal in the oscilloscope? Where is this signal coming from on the board?
 
+### PART IV: Test the Temperature Sensor
+1. Program the microcontroller with the provided `U_TEMP.hex` file. The microcontroller will read the data from its internal temperature sensor and send it to the FPGA. Put switches S9
+– S6 to “1001” to see the values on the LEDs.
+1. **REPORT:** Add the following:
+    * Attach a photo of the board showing the microcontroller temperature value in your report.
+    * Attach a screenshot of the GOWIN Analyzer Oscilloscope window showing the aforementioned signals.
 
-## Acknowledgement
+### PART V: Test the Flash Memory
+1. Program the microcontroller with the provided `U_FLASH.hex` file. The microcontroller will read a signature of the EEPROM and send it to the FPGA. Put switches S9 – S6 to `1001` to see the values on the LEDs. The LEDs should be showing 00101001 (0x29).
+1. **REPORT:** Add the following:
+    * Attach a photo of the board showing the value 0x29 on the LEDs in your report.
+    * Attach a screenshot of the GOWIN Analyzer Oscilloscope window, showing 0x29 for the second signal.
 
-1. Follow the instructions in the [lab0/Experiment_0_self_test_HaHav3.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab0/Experiment_0_self_test_HaHav3.pdf) file.
-
-    * For this lab, you will program the microcontroller using the avrdude command found on page 10 of *docs/HaHav3_Software_Installation_Tutorial_Linux.pdf*.
 
 ## What to Submit
 
-Create a lab report document that contains the items detailed in the *lab0/Experiment_0_self_test_HaHav3.pdf* file.   Make sure to save this as *lab0/report.pdf*, and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
+Create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab0/report.pdf*,</span>
+and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 ## Board Issues
 I will post any issues with boards here:
@@ -97,19 +110,19 @@ I will post any issues with boards here:
 
 ## Helpful Tips
 
-### Programming the Microcontroller
-Each time you want to program the microcontroller, you need to move the switch to BOOT and press the reset button.  To run your program, move the switch to APP and press the reset button again.  
+<!-- ### Programming the Microcontroller
+Each time you want to program the microcontroller, you need to move the switch to BOOT and press the reset button.  To run your program, move the switch to APP and press the reset button again.   -->
 
 ### Temperature Sensor
 There is a can of compressed air in the lab that you can blow on the microcontroller to see the temperature change. 
 
 ### Detecting the Board
-Sometimes the FPGA programmer has trouble detecting the board.   Try power cycling the board, unplugging and replugging the USB cable, or restarting the GOWIN software.  Sometimes it takes a few tries to get it to work.
+Sometimes the FPGA programmer has trouble detecting the board.   Try power cycling the board, unplugging and re-plugging the USB cable, or restarting the GOWIN software.  Sometimes it takes a few tries to get it to work.
 
 ### Flashing the FPGA
 During the lab, you will program the FPGA with a provided bitstream.  The FPGA on your board, like most FPGAs, is stores its configuration (ie the design) in SRAM.  This means that when you power off the board, the design is lost.  Many FPGA boards, including ours, contains a separate Flash chip, that will store a default configuration that will be loaded into the FPGA when the board is powered on.  Using the programmer software, you have the choice of programming either the FPGA SRAM (which will be lost when the board is powered off) or the Flash chip (which will be loaded into the FPGA each time the board is powered on).  For this lab, you will be programming the Flash chip, but in future labs, you will be programming the SRAM.
 
-## License Keys
-You will need License keys to use the GOWIN software.  These are available in the [gowin_keys](https://github.com/byu-cpe/ecen522r_security_student/tree/main/gowin_keys) directory of your repository.  If you move to a new computer, you will need to change which key you are using.
 
-### Using the Oscilloscope
+## Acknowledgement
+
+These instructions were originally from Dr. Swarup Bhunia, University of Florida, and were modified for this class.

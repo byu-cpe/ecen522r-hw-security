@@ -16,29 +16,29 @@ icon: fas fa-screwdriver-wrench
 1. Click the "Software for Linux" tab, and download the *Gowin V1.9.11.03 Education (Linux x64)* software.
 1. Unpack the downloaded archive to your home directory:
 
-        mkdir -p ~/GOWIN
-        tar -xvf Gowin_V1.9.11.03_Education_Linux.tar.gz
+       mkdir -p ~/GOWIN
+       tar -xvf Gowin_V1.9.11.03_Education_Linux.tar.gz
 
 1. Disable the built-in libraries for the IDE:
 
-        cd ~/GOWIN/IDE
-        mkdir -p ./lib/disabled
-        [ -f ./lib/libfreetype.so.6 ]   && mv ./lib/libfreetype.so.6   ./lib/disabled/
-        [ -f ./lib/libfontconfig.so.1 ] && mv ./lib/libfontconfig.so.1 ./lib/disabled/
-        [ -f ./lib/libstdc++.so.6 ] && mv ./lib/libstdc++.so.6 ./lib/disabled/
-        [ -f ./lib/libgcc_s.so.1 ]  && mv ./lib/libgcc_s.so.1  ./lib/disabled/
+       cd ~/GOWIN/IDE
+       mkdir -p ./lib/disabled
+       [ -f ./lib/libfreetype.so.6 ]   && mv ./lib/libfreetype.so.6   ./lib/disabled/
+       [ -f ./lib/libfontconfig.so.1 ] && mv ./lib/libfontconfig.so.1 ./lib/disabled/
+       [ -f ./lib/libstdc++.so.6 ] && mv ./lib/libstdc++.so.6 ./lib/disabled/
+       [ -f ./lib/libgcc_s.so.1 ]  && mv ./lib/libgcc_s.so.1  ./lib/disabled/
 
 1. Disable the built-in libraries for the programmer:
 
-        cd ~/GOWIN/Programmer/bin
-        mkdir -p disabled
-        [ -f ./libz.so.1 ] && mv ./libz.so.1 disabled/
+       cd ~/GOWIN/Programmer/bin
+       mkdir -p disabled
+       [ -f ./libz.so.1 ] && mv ./libz.so.1 disabled/
 
 
 ### Running
 1. Before you can program the FPGA on the board, you must
 
-        sudo remove_ftdi_serial.sh
+       sudo remove_ftdi_serial.sh
 
     *Explanation:* There is a conflict between the Linux driver that allows you to use the UART output of the microcontroller, and the software that allows you to program the FPGA. Each time you plug in the board, the Linux driver for managing the UART will load. This will prevent you from programming the FPGA. If you want to program the FPGA, run this first:
 
@@ -48,11 +48,11 @@ icon: fas fa-screwdriver-wrench
 
 1. Run this in your terminal to update the library search path:
         
-        export LD_LIBRARY_PATH=$HOME/GOWIN/IDE/lib
+       export LD_LIBRARY_PATH=$HOME/GOWIN/IDE/lib
 
 1. Run the software:
 
-        ~/GOWIN/IDE/bin/gw_ide
+       ~/GOWIN/IDE/bin/gw_ide
 
 ## Microcontroller 
 
@@ -68,6 +68,6 @@ These packages are already installed on the lab computers, so you can skip this 
 1. Double tap MCU RST button.
 1. Run the command to program the microcontroller:
 
-        avrdude -v -c flip2 -p x16a4u -U application:w:<path/to/hex/file>:i
+       avrdude -v -c flip2 -p x16a4u -U application:w:<path/to/hex/file>:i
 
 1. To run the programmed executable, move the switch from BOOT to APP and press the MCU RST button a couple times.
