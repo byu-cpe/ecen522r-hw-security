@@ -15,7 +15,7 @@
                 {% if item.icon %}
                 <i class="{{ item.icon }}"></i>
                 {% endif %}
-                {{ item.title }}
+                {{ item.short_title | default: item.title }}
             </a>
             {% endif %}
             {% endfor %}

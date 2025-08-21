@@ -7,17 +7,81 @@ number: 0
 under_construction: false
 ---
 
-## Instructions
+## Preliminary
 
 1. Complete your repository setup, following the instructions on [this page]({% link _pages/lab_instructions.md %}).
 
-1. Install the GOWIN FPGA tools on your home drive.  To do this, you only need to follow step #2 and #3 of the "Install GOWIN FPGA Designer" section of *docs/HaHav3_Software_Installation_Tutorial_Linux.pdf*.
-
-    To run the GOWIN tools on your system, simply run:
-
-        ~/GOWIN/IDE/bin/gw_ide
+1. Install the GOWIN FPGA tools on your home drive.  Follow the instructions [here]({% link _pages/tools.md %}#installing).
 
 
+## Instructions
+
+### PART I: Test the Power Supply and Voltage Regulators
+1. Connect the HaHa v3.0 board to the USB Power supply (J14) with a USB A-to-B cable to your Windows machine. Turn on the power to see if the power light is on.
+1. Using an oscilloscope, check the voltages in the pins along header (P2) on the board. There should be ten pins on this header along with five test pins/points to the right. Starting from the top pin:
+    - Pins 1-2 probe the input voltage.
+    - Pins 3-4 output the adjustable voltage. Use button SW1 and SW2 to change the voltage.  *Note:* This changes the voltage for the FPGA on the board, but not the microcontroller.
+        - **REPORT:** Answer this question: what is the adjustable voltage range?
+        - **REPORT:** Take a picture showing the minimum voltage of the 3.3A test point.
+    - Pins 7-8 have a constant 3.3 V output.
+    - Pins 9-10 are ground pins.
+
+**Note:** After doing voltage measurement, remember to set “PWR SEL” to “FIX” to make sure you can program both chips successfully.
+
+
+### PART II: Test the FPGA and the Peripherals
+1. Make sure the HaHa v3.0 board is still connected to the USB Power supply (J14) Open GOWIN FPGA Designer and navigate to *Tools >
+Programmer* in the menu bar. 
+    * The Programmer window will appear with another window called Cable Setting. Make sure the Port is set to "Gowin USB Cable(FT2CH)/0/…".  If it's showing a different cable type, try hitting the *Query/Detect Cable* button, and if that doesn't work, go back and make sure you followed the [steps for running the tool]({% link _pages/tools.md %}#running).
+    * Click on the Find Device button (first button below menu bar that has a magnifying glass). 
+    * Select GW1N-9C in the popup window. 
+    * A new entry will now show up on the first row. Double click on Read Device Codes and change the following settings and then Press Save:
+        * Access Mode = Embedded Flash Mode
+        * Operation = embFlash Erase,Program,Verify
+        * File name = <location/of/self_test_fpga_haha3.fs/file>
+
+1. You are now ready to program the board. Navigate to *Edit > Program/Configure*. Wait until the programming is complete.
+
+1. If this is successful, the 8 LEDs on the board should be blinking, and the 7-segment display a hexadecimal digit counting from 0 to F. To check the function of the 10 user switches, just switch any of them and you will see the 8 LEDs will change their pattern of blinking. There are two different patterns of blinking. Whenever any of the switches are flipped, the pattern should change.  To check the function of the pushbuttons, just push any of them, and you should see the 7-segment display stops counting and start to repeat blinking with a fixed number. 
+
+1. **REPORT:** Answer these questions:
+    - What are the two LED patterns occurring in the board?
+    - Which patterns of switches trigger either of the LED patterns?
+    - What happens to the digit on the 7-segment display when you keep pressing any of the key buttons?
+    - Attach a picture of the board with one of the LED patterns and a hexadecimal digit displayed in 7-segment display.
+
+### PART III: Test the Microcontroller and the Accelerometer
+1. Program the provided `U_ACC.hex` file into the microcontroller.  See the [microcontroller programming instructions]()
+
+    The microcontroller will read the acceleration data from the accelerometer and send it to the FPGA. The FPGA will show the value in binary on the eight LEDs if you place the most significant four switches to `1001`. Please rotate the board and see if the values are showing on the LEDs are changing. 
+    
+    *NOTE:* You may need to tap MCU RST button multiple times before the LEDs show the correct value and change as you move the board.
+
+1. **REPORT:** Attach a photo of the board showing the acceleration value on the LEDs in your report.
+
+1. Now we are doing to use the internal logic analyzer on the FPGA to observe certain signals that are connected to the FPGA.  
+
+    * Open GOWIN FPGA Designer. Go to *File > New*. Select *FPGA Design Project*. Name the project `haha3_self_test` with the directory of your choosing. In the device selection window, use the following filters:
+        * Series: GW1N
+        * Device: GW1N-9
+        * Device Version: C
+        * Package: LQFP144
+        * Speed: C6/I5
+        * Select the Part Number: GW1N-UV9LQ144C6/I5. 
+        
+        The project creation process is just needed to unlock the GOWIN Analyzer Oscilloscope (GAO) tool. 
+    
+    * Go to *Tools > Gowin Analyzer Oscilloscope*. Press the folder button. Navigate to the location of the provided file (`self_test_fpga_haha3.rao`) and click *Open*. Check *Enable Programmer*. Press the button with the magnifying glass. Select *GW1N-9C*.
+Check the box below Enable. Under Fs File, click the empty field. Navigate to the location of the provided file (self_test_fpga_haha3.fs).
+Press the small green play button (under Enable Programmer) to program the FPGA. After successfully programming, press the F2 key.
+You should see the two signals.
+a. Deliverable: Attach a screenshot of the GOWIN Analyzer Oscilloscope window showing the aforementioned signals.
+b. Answer the following:
+i. What is the first signal in the oscilloscope? Where is this signal coming from on the board?
+ii. What is the second signal in the oscilloscope? Where is this signal coming from on the board?
+
+
+## Acknowledgement
 
 1. Follow the instructions in the [lab0/Experiment_0_self_test_HaHav3.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab0/Experiment_0_self_test_HaHav3.pdf) file.
 
