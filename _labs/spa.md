@@ -2,8 +2,8 @@
 layout: lab
 toc: true
 title: "Side Channel: SPA"
-number: 5
-under_construction: false
+number: 6
+under_construction: true
 ---
 
 ## Instructions
