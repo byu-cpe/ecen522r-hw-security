@@ -7,32 +7,6 @@ icon: fa fa-calendar
 order: 2
 ---
 
-Number of lectures: 14*2=28. Gone -3. Thanksgiving -1. Student presentation -2. Final project: -2. Remaining: 20.
-
-Lecture topics (20)
-<!-- Ch 1: Intro -->
-<!-- Ch 2: Hardware Intro + Secure Bootloaders -->
-<!-- Ch 3: VLSI & SoC Design -->
-<!-- Ch 4: PCB Design & Test -->
-<!-- Ch 5: Hardware Trojans -->
-<!-- Ch 6: Electronic Supply Chain -->
-<!-- Ch 6: Part 2 - Counterfeiting -->
-<!-- Ch 7: Secure IP, IP Reverse Engineering -->
-<!-- Ch 8: Side Channel Attacks -->
-<!-- Ch 8: Part 2 -->
-?Ch 9: Test Oriented Attacks - move Ch4 here? combined with 11.
-<!-- Ch 10: Physical Attacks -->
-<!-- Ch 10: Part 2 -->
-<!-- Ch 11: Attacks on PCB -->
-<!-- Ch 12: Hardware Security Primitives: PUFs, TRNGs -->
-<!-- Ch 14: Hardware Obfuscation -->
-Ch 15: PCB authentication/integrity
-Ch 16: System-Level Attacks & Countermeasures 
-<!-- Lab help -->
-<!-- Secure Enclaves -->
-
-
-
 
 | Week #        | Monday| Tuesday                                                       | Wednesday | Thursday                                                              |  Friday               |
 |---------------|-----------------------------------------------------------------------|---------  |-----------------------------------------------------------------------|-----------------------|
@@ -46,12 +20,27 @@ Ch 16: System-Level Attacks & Countermeasures
 |8 (Oct 20)     |       | *Student Presentations*                                       |           | *Student Presentations*                                               | **Lab 6 Due 11:59pm** |
 |9 (Oct 27)     |       | *Student Presentations*                                       |           | DPA Lab Discussion                                                    | **Lab 7 Due 11:59pm** |
 |10 (Nov 3)     |       | HW Security Primitives (Ch 12)                                |           | Hardware Obfuscation (Ch 14)                                          | **Lab 8 Due 11:59pm** |
-|11 (Nov 10)    |       | Memory Corruption Attacks                                     |**Project Proposal Due 11:59pm**           | *Project Proposal Presentations*      | **Lab 9 Due 11:59pm** |
-|12 (Nov 17)    |       | <span style="color:blue">TBD</span>                           |           | <span style="color:blue">TBD</span>                                   |                       |
-|13 (Nov 24)    |       | PCB Design & Test (Ch 4), PCB Attacks (Ch 11)                 |           | NO CLASS (Thanksgiving)                                               |                       |
+|11 (Nov 10)    |       | PCB Design & Test (Ch 4), PCB Attacks (Ch 11)                 |**Project Proposal Due 11:59pm**           | *Project Proposal Presentations*      | **Lab 9 Due 11:59pm** |
+|12 (Nov 17)    |       | *Memory Safety and Corruption Attacks <span style="color:blue">(Stacey Son)</span>|| *ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>    |                       |
+|13 (Nov 24)    |       | *CHERI Memory Safety <span style="color:blue">(Stacey Son)</span>|         | NO CLASS (Thanksgiving)                                               |                       |
 |14 (Dec 1)     |       | Secure Enclaves                                               |           | *Final Project Presentations*                                         |                       |
 |15 (Dec 8)     |       | *Final Project Presentations* **LAST DAY OF CLASS**           |           |                                                                       |                       |
 |16 (Dec 15)    |       |                                                               | **Final Project Reports due, 11:59pm**                                            |                       |
+
+## *Suggested Reading 
+
+* **Nov 18 (Memory Safety and Corruption Attacks)**
+    * "SoK: Eternal War in Memory" <https://people.eecs.berkeley.edu/~dawnsong/papers/Oakland13-SoK-CR.pdf>
+* **Nov 20 (ARM PAC & MTE)**: 
+    * "PACMAN: Attacking ARM Pointer Authentication with Speculative Execution" <https://pacmanattack.com/paper.pdf>
+    * "Armv8.5-A Memory Tagging Extension" <https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Arm_Memory_Tagging_Extension_Whitepaper.pdf>
+    * "TIKTAG: Breaking ARM's Memory Tagging Extension with Speculative Execution" <https://arxiv.org/pdf/2406.08719v1>
+* **Nov 25 (CHERI Memory Safety)**:
+    * "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization" <https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201505-oakland2015-cheri-compartmentalization.pdf>
+    * "CHERIoT: Complete Memory Safety for Embedded Devices" <https://cheriot.org/papers/2023-micro-cheriot-uarch.pdf>
+
+
+
 
 <!-- | Week #        | Monday                                                            |  Tuesday  | Wednesday                                                         | Thursday                      |  Friday               |
 |---------------|-------------------------------                                    |---------  |-------------------------------                                    |-------------------------------|-----------------------|

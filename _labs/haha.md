@@ -51,7 +51,7 @@ Programmer* in the menu bar.
     - Attach a picture of the board with one of the LED patterns and a hexadecimal digit displayed in 7-segment display.
 
 ### PART III: Test the Microcontroller and the Accelerometer
-1. Program the provided `U_ACC.hex` file into the microcontroller.  See the [microcontroller programming instructions]()
+1. Program the provided `U_ACC.hex` file into the microcontroller.  See the [microcontroller programming instructions]({% link _pages/tools.md %}#programming)
 
     The microcontroller will read the acceleration data from the accelerometer and send it to the FPGA. The FPGA will show the value in binary on the eight LEDs if you place the most significant four switches to `1001`. Please rotate the board and see if the values are showing on the LEDs are changing. 
     

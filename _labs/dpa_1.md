@@ -11,7 +11,7 @@ under_construction: true
 
 You will need to merge in the latest changes from the starter code repository before getting started.  Refer back to the [Lab Instructions]({% link _pages/lab_instructions.md %}) for how to do this.
 
-To complete this lab you will use a collection of power traces that were captured from a DES encryption.  Download [this zip file](https://drive.google.com/file/d/1_nER-j0IvPwxPzvr-h9KBcCyjKydJV5A/view?usp=sharing) and extract it.  Place the *traces.npy* file in the *lab6/* directory. You can ignore the *read_traces.py* file as it is already included in the *lab6/* directory with additional comments.
+To complete this lab you will use a collection of power traces that were captured from a DES encryption.  Download [this file](https://byu-my.sharepoint.com/:u:/g/personal/jgoeders_byu_edu/EREPd4kmx21KkzTTa8qtFHwBdxz2-teAUSTzT7ubLZ-SIg?e=M3M7jP).  Place the *traces.npy* file in the *lab6/* directory. 
 
 Follow the instructions in the [lab6/side_channel_2.pdf](https://github.com/byu-cpe/ecen522r_security_student/blob/main/lab6/side_channel_2.pdf) file.
 
