@@ -12,7 +12,7 @@ icon: fas fa-person-chalkboard
 Code and submission is done using Github Classroom. 
 
 
-1. Use this [invitation link](https://classroom.github.com/a/gzzaL2NG) to create a private Github repository that you will use for the class.
+1. Use this [invitation link](https://classroom.github.com/a/mVt5QJY0) to create a private Github repository that you will use for the class.
 
 1. Your repository will begin empty, but you will need to import the starter code.  To do this we will do a bare clone of the starter code repository, and push it to your repository.  Then you can delete this clone.  Make sure to replace the URL in the third step with the URL of your repository, that you can find by clicking the *SSH* button on your repository page.  You can run these commands in any directory you want. 
 
