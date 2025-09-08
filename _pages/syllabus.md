@@ -15,7 +15,7 @@ icon: fas fa-chalkboard-teacher
 There are no formal prerequisites for this course.  Experience with C programming and digital logic is helpful.  If you are unsure if you have the necessary experience, contact the instructor.
 
 ## Textbook
-Hardware Security: A Hands-on Learning Approach, by Swarup Bhunia and Mark Tehranipoor. [Available at Amazon](https://www.amazon.com/Hardware-Security-Hands-Learning-Approach/dp/0128124776)
+Hardware Security: A Hands-on Learning Approach, by Swarup Bhunia and Mark Tehranipoor. Available online for BYU students for free [here](https://www.sciencedirect.com/book/9780128124772/hardware-security).  You may need to authenticate through the BYU library to access this link.
 
 ### Sharing Source Code 
 Sharing your source code  is prohibited and is a violation of the Honor Code.  **This includes posting your lab code and solutions on a public website such as a public Github repository.**  You will be provided with a private Github repository to store your code.
