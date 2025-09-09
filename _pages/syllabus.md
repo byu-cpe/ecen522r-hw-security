@@ -18,20 +18,24 @@ There are no formal prerequisites for this course.  Experience with C programmin
 Hardware Security: A Hands-on Learning Approach, by Swarup Bhunia and Mark Tehranipoor. [Available at Amazon](https://www.amazon.com/Hardware-Security-Hands-Learning-Approach/dp/0128124776)
 
 ### Sharing Source Code 
-Sharing your source code  is prohibited and is a violation of the Honor Code.  **This includes posting your lab code and solutions on a public website such as a public Github repository.**  You will be provided with a private Github repository to store your code.
+Sharing your source code is prohibited and is a violation of the Honor Code.  **This includes posting your lab code and solutions on a public website such as a public Github repository.**  You will be provided with a private Github repository to store your code.
 
 
 ## Grade Breakdown
 
 | Component                         | % of Grade    |
 |-----------------------------------|---------------|
-| Lab Assignments       | 60            |
+| Lab Assignments                   | 55            |
+| Quizzes                           | 10            |
 | Student Lecture/Presentation      | 10            |
-| Participation                     | 10            |
 | Final Project                     | 20            |
+| Participation                     | 5             |
 
 ### Lab Assignments
 There will be weekly lab assignments.  These will be completed using the HAHAv3 board, available in the embedded lab (EB438).
+
+### Quizzes
+Quizzes will be available on LearningSuite.  These will be open book/notes, but you may not collaborate with others on the quizzes.
 
 ### Student Lecture/Presentation
 Students will give a lecture on a security topic of their choice.  See [Student Lecture]({% link _pages/student_lecture.md %}) for more details.
@@ -42,7 +46,7 @@ Students will completed a project related to the topics covered in the course an
 There will be no final exam for the course.
 
 ## Late Policy
-For assignments/exercises submitted late, the penalty will be 10% for each week late (rounding up), to a maximum of 30% deduction.  (Example: submitting 1 day late will result in a 10% penalty and 13 days late will result in a 20% penalty).  No assignments will be accepted after the last day of class.  This policy applies to assignments only.  The final project deliverables must be completed on time, or no credit will be given.
+For lab assignments submitted late, the penalty will be 10% for each week late (rounding up), to a maximum of 30% deduction.  (Example: submitting 1 day late will result in a 10% penalty and 13 days late will result in a 20% penalty).  No assignments will be accepted after the last day of class.  This policy applies to lab assignments only.  The final project deliverables, quizzes, and student lecture, must be completed on time, or no credit will be given.
 
 
 ## Honor Code
