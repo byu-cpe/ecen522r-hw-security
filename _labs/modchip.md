@@ -89,7 +89,7 @@ Enter the *ADMIN* mode by shorting the appropriate signal to ground.
 ### Step 4: Hard Modchip Attack (Bonus 10%)
 Enter the *SECRET* mode by connecting a signal generator to the appropriate signal and providing the *SECRET* key. Be careful to not provide more than 3.3V to the board.  Check the signal generator's output with the oscilloscope before connecting it to the board.
 
-**REPORT**: Take a photo of your setup showing the signal generator connected to the board, and include it in your lab report.  Include a screenshot of the terminal window showing that you have successfully entered *SECRET* mode in your lab report.
+**REPORT**: Take a photo of your setup showing the signal generator connected to the board, and include it in your lab report.  Include a screenshot of the terminal window showing that you have successfully entered *SECRET* mode in your lab report.  Describe what signal you connected the signal generator to, and what settings you used on the signal generator (waveform type, frequency, amplitude, offset, etc).
 
 ## What to Submit
 
