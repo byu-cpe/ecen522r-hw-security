@@ -3,7 +3,7 @@ layout: lab
 toc: true
 title: "Modchip Attack"
 number: 2
-under_construction: true
+under_construction: false
 ---
 
 The objective of this experiment is to simulate a Modchip attack towards a system that is protected by a key.
@@ -93,7 +93,7 @@ Enter the *SECRET* mode by connecting a signal generator to the appropriate sign
 
 ## What to Submit
 
-Create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab_modchip/report.pdf*,</span>
+Commit your `main.c` and create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab_modchip/report.pdf*,</span>
 and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 
