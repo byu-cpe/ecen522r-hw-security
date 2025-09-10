@@ -14,7 +14,7 @@ The objective of this experiment is to simulate a Modchip attack towards a syste
 
 ### System Overview
 
-The figure below shows a simplified schematic view of the Microcontroller and Flash memory which provides key to the system. Modchipping this FLASH will cause the system to get a different key (usually a more powerful key). In this experiment, we will change the key data that is communicated through the SPI bus without replacing the FLASH memory. We can force the data on the MISO wire to different values by connecting the Modchip soldering point (please find on P2 or P9) to another source. To make things simpler, we’ll short it to ground in this experiment.
+The figure below shows a simplified schematic view of the Microcontroller and flash memory which provides key to the system. Modchipping this FLASH will cause the system to get a different key (usually a more powerful key). In this experiment, we will change the key data that is communicated through the SPI bus without replacing the FLASH memory. We can force the data on the MISO wire to different values by connecting the Modchip soldering point (please find on P2 or P9) to another source. To make things simpler, we’ll short it to ground in this experiment.
 
 <p align="center">
     <img src="{% link media/labs/spi_bus_uc.png %}" width="700" alt="Modchip attack" />
@@ -34,33 +34,62 @@ The diversity of hardware Modchips operates on varying methods. While Modchips a
 
 ### The Test Program
 To check for correctness of your Modchip attack, you will use a simple test program, `test_program.hex`, that will run on the microcontroller.  This program will do the following:
- * Read the device ID of the Flash memory, print it to the UART, and verify it is correct.  If it is not correct, the program will halt.
+ * Read the device ID of the flash memory, print it to the UART, and verify it is correct.  If it is not correct, the program will halt.
  * Wait 1 second.
- * Read the 8-bit key from location ???? of the Flash memory, and print it to the UART.
- * If the key is the *USER* key (0x67), the program will print a message indicating it is entering user mode, and repeatedly print '-' to the UART.
- * If the key is the *ADMIN* key (0x00), the program will print a message indicating it is entering admin mode, and repeatedly print '+' to the UART.
- * If the key is the *SECRET* key (0xAA), the program will print a message indicating it is entering secret mode, and repeatedly print 'S' to the UART.
+ * Read the 8-bit key from page address `0x0101`, column address `0x0202` of the flash memory, and print it to the UART.
+ * If the key is the *USER* key (`0x67`), the program will print a message indicating it is entering user mode, and repeatedly print `-` to the UART.
+ * If the key is the *ADMIN* key (`0x00`), the program will print a message indicating it is entering admin mode, and repeatedly print `+` to the UART.
+ * If the key is the *SECRET* key (`0xAA`), the program will print a message indicating it is entering secret mode, and repeatedly print `S` to the UART.
 
 Because the program will read the device ID before reading the key, you will need to time your Modchip attack appropriately.  If you short the Modchip soldering point to ground too early, the device ID will be incorrect, and the program will halt.  If you short it too late, the program will have already read the key, and you will not be able to change it. 
 
 
 ### Flash Memory
 
-Another objective of this lab is to gain experience interfacing with a SPI Flash memory.  The Flash memory on the board is a Winbond ??????.  The datasheet for this chip can be found in your *docs/* directory [here](https://github.com/byu-cpe/ecen522r_security_student/blob/main/docs/???.pdf).
+Another objective of this lab is to gain experience interfacing with a SPI flash memory.  The flash memory on the board is a Winbond W25N01GV chip.  The datasheet for this chip can be found in your *docs/* directory [here](https://github.com/byu-cpe/ecen522r_security_student/blob/main/docs/W25N01GV%20Rev%20R%20070323.pdf).  
+
+Before using the flash memory, you should call `haha_spi_init()` and `haha_flash_init()` to initialize the SPI peripheral and pins to the flash memory.  Once you have done this, you can communicate with the flash memory using on the SPI bus using the `SPI_MasterTransceiveByte(&spiMasterC, <val>)` function.  This same function can be used for reading and writing to the bus.  However, there are multiple devices on the SPI bus, so you will need to activate the chip select (CS) pin for the flash memory before communicating with it, and deactivate it when you are done.  For example, to send a byte to the flash memory, you would do the following:
+
+```c
+W25N_ss_en();
+SPI_MasterTransceiveByte(&spiMasterC, <val>);
+W25N_ss_di();
+```
+
+and to get a byte from the flash memory, you would do the following:
+
+```c
+W25N_ss_en();
+val = SPI_MasterTransceiveByte(&spiMasterC, 0x00); // send dummy data while reading
+W25N_ss_di();
+```
+
+You will need to read the datasheet to learn how to communicate with the flash memory.  Some things to keep in mind:
+  * Reading and writing are two-stage processes.  For example to read from the flash, you must first move a page from flash memory into an internal buffer, and then read the data from the buffer.  Likewise for writing.
+  * Writing is even more involved, as you must make sure writing is enabled and that write protection is disabled.
+  * Furthermore NAND flash memory can only be written 1->0, so before writing to a page, you must erase it (set all bits to 1) first.
+  * Some operations take time to complete, and you must make sure to wait for them to finish before proceeding.  
+
 
 ## Instructions
 
-### Step 1: Interacting with the Flash Memory
-Print the device ID of the Flash memory to the UART. 
+### Step 1: Interacting with the flash Memory
+Begin by creating a simple *main.c* program that will print the device ID of the flash memory to the UART. The documentation shows the correct device ID that will be expected by the test program.  Make sure you can get the correct device ID before proceeding.  
 
-### Step 2: Writing the *USER* key to the Flash memory
-Writing the *USER* key to the Flash memory
+### Step 2: Writing the *USER* key to the flash memory
+Next, extend your program to write the user key (`0x67`) to page address `0x0101`, column address `0x0202` of the flash memory.  
+
+After writing the key, read it back and print it to the UART to verify it was written correctly.  Make sure you can successfully write and read back the *USER* key before proceeding.  Your *main.c* program is now complete.  **Make sure to commit to your repository.**
 
 ### Step 3: Easy Modchip Attack 
 Enter the *ADMIN* mode by shorting the appropriate signal to ground.
 
-### Step 4: Hard Modchip Attack
+**REPORT**: In a single terminal window, run the test program and demonstrate that you can enter *USER* mode.  Then, press the *MCU RST* key to run the test program again, and use your Modchip attack to enter *ADMIN* mode.  Take a screenshot of the terminal window showing both modes, and include it in your lab report.
+
+### Step 4: Hard Modchip Attack 
 Enter the *SECRET* mode by connecting a signal generator to the appropriate signal and providing the *SECRET* key.
+
+**REPORT**: Take a photo of your setup showing the signal generator connected to the board, and include it in your lab report.  Include a screenshot of the terminal window showing that you have successfully entered *SECRET* mode in your lab report.
 
 ## What to Submit
 

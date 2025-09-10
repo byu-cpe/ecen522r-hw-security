@@ -58,9 +58,15 @@ If, after you create this tag, you want to change it (ie, re-submit your code), 
 
 
 For later labs, update the tag name appropriately:
-  * lab1_submission
-  * lab2_submission
-  * lab3_submission
+  * lab_bus_snooping
+  * lab_modchip
+  * lab_trojan_i
+  * lab_trojan_ii
+  * lab_spa
+  * lab_jtag
+  * lab_dpa_i
+  * lab_dpa_ii
+  * lab_puf_trng
 
 ## Important!
 * <span style="color:red">**If you don't type the tag name correctly, it won't count as submitted.**.</span>
