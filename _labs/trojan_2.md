@@ -2,7 +2,7 @@
 layout: lab
 toc: true
 title: "Hardware Trojans II"
-number: 5
+number: 4
 under_construction: true
 ---
 

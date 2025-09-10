@@ -3,7 +3,7 @@ layout: lab
 toc: true
 title: "Side Channel: DPA (Part 1)"
 short_title: "Side Channel: DPA 1"
-number: 8
+number: 7
 under_construction: true
 ---
 

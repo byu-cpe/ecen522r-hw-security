@@ -2,7 +2,7 @@
 layout: lab
 toc: true
 title: "Side Channel: SPA"
-number: 6
+number: 5
 under_construction: true
 ---
 

@@ -2,7 +2,7 @@
 layout: lab
 toc: true
 title: "PUFs and TRNGs"
-number: 3
+number: 9
 under_construction: false
 ---
 
