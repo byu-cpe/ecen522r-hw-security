@@ -71,6 +71,11 @@ You will need to read the datasheet to learn how to communicate with the flash m
   * Some operations take time to complete, and you must make sure to wait for them to finish before proceeding.  
 
 
+### Lab Directory
+
+You will be using the `lab_modchip` directory for this lab. 
+
+
 ## Instructions
 
 ### Step 1: Interacting with the flash Memory
