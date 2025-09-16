@@ -65,13 +65,13 @@ You have been provided several 12 Verilog files related to the DES implementatio
 1. Use the Gowin Analyzer Oscilloscope (GAO) to view the DES encryption. 
     * The encryption process happens repeatedly, so you can use GAO to view the signals repeatedly performing the encryption; however, after the first encryption cycle (which happens very fast, before you can start capture with GAO), the result in the RAM should not change.
     * If you look at `des.v`, you will see the clock is being slowed down by 50x, resulting in a 1MHz clock. You may want to clock the logic analyzer using this slower clock signal so that you are not viewing the same data repeatedly. You can shorten the capture window down to 32, which will be large enough to capture all rounds of encryption at least once. 
-1. **REPORT:** Answer the following questions in your report
+1. **REPORT:** Answer the following questions in your report:
     1. Use the plaintext and key provided and add them in the `des.v Verilog file:
              
            desIn = 64'hA42F891BD376CE05
            key64 = 64'h0123456789ABCDEF
            
-    1. Store all the encryption results for the 16 rounds in an implemented RAM and show the result of the final round (upper 64 bits of the 1024-bit RAM). You can verify the correct encryption using an online tool, such as http://des.online-domain-tools.com/
+        Store all the encryption results for the 16 rounds in an implemented RAM and show the result of the final round (upper 64 bits of the 1024-bit RAM). You can verify the correct encryption using an online tool, such as <http://des.online-domain-tools.com/>
 
     1. Which module is creating the key for each round? How?
     1. Which module is doing the Feistel function?
@@ -84,6 +84,11 @@ You have been provided several 12 Verilog files related to the DES implementatio
     * When the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). 
     * When the trigger condition is not true, the key becomes the original input key. 
     * You will want to register your trigger signal to prevent a combinational loop from occurring. That means that in any cycle where the trigger is true, the following cycle will have key56[0] inverted.
+1. **REPORT:** Answer the following questions in your report:
+    1. When the trigger condition is 4’b0110, will the Trojan be triggered? How many times is it triggered in the 16 rounds? Turn in a screenshot of the GAO window.
+    1. When the condition is 4’b1001, repeat answering question 1. again. Take another screenshot of the GAO window.
+    1. When the condition is 4’b1010, repeat answering question 1. again. Take another screenshot of the GAO window.
+
 
 ## Part III: Insert a sequential Trojan
 1. Create a new folder, `part3`, that contains another new Gowin project. Once again, copy over your working DES design from Part 1.
@@ -91,24 +96,20 @@ You have been provided several 12 Verilog files related to the DES implementatio
     * Use the same clock as the DES circuit. 
     * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
-
-    
+1. **REPORT:** Answer the following questions in your report:
+    1. Consider the sequential trigger `2'b01→2'b10→2'b11`
+        a. How many states are needed in total? How many additional registers have you implemented?
+        b. Will the Trojan be triggered? How many times is it triggered in the 16 rounds? Turn in a screenshot of the GAO window.
+    1. When the condition is `2'b11→2'b10→2'b00`, repeat answering question 1. again.
+    1. When the condition is `2'b11→2'b01→2'b00`, repeat answering question 1. again.
 
 
 ## What to Submit
 
 Make sure your submission tag on Github includes the following files:
-1. Your lab report (*lab3/report.pdf*).
-1. The files for all three of your FPGA projects (*lab3/part1/*, *lab3/part2/*, and *lab3/part3/*). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
+1. Your lab report (*lab_trojan_i/report.pdf*).
+1. The files for all three of your FPGA projects (*lab_trojan_i/part1/*, *lab_trojan_i/part2/*, and *lab_trojan_i/part3/*). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
 
-## Helpful Tips
+## Acknowledgement
 
-### Programming the FPGA
-
-The setup in the lab has changed slightly since you completed Lab 0.  There is a conflict between the Linux driver that allows you to use the UART output of the microcontroller, and the software that allows you to program the FPGA.  Each time you plug in the board, the Linux driver for managing the UART will load.  This will prevent you from programming the FPGA.  If you want to program the FPGA, run this first:
-
-    sudo remove_ftdi_serial.sh
-
-While you don't have general sudo access on the lab computers, you have been given permissions to run this script as sudo.
-
-This script will unload the Linux driver that is managing the UART, and allow you to program the FPGA.  If you ever need to use the UART again, you will need to unplug and replug the board.
+These instructions were originally from Dr. Swarup Bhunia, University of Florida, and were modified for this class.
