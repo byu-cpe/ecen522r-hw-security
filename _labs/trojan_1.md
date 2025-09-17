@@ -3,7 +3,7 @@ layout: lab
 toc: true
 title: "Hardware Trojans I"
 number: 3
-under_construction: true
+under_construction: false
 ---
 
 In this lab you will modify an encryption circuit to insert a hardware Trojan.  
@@ -97,11 +97,12 @@ You have been provided several 12 Verilog files related to the DES implementatio
     * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
 1. **REPORT:** Answer the following questions in your report:
-    1. Consider the sequential trigger `2'b01→2'b10→2'b11`
-        a. How many states are needed in total? How many additional registers have you implemented?
-        b. Will the Trojan be triggered? How many times is it triggered in the 16 rounds? Turn in a screenshot of the GAO window.
-    1. When the condition is `2'b11→2'b10→2'b00`, repeat answering question 1. again.
-    1. When the condition is `2'b11→2'b01→2'b00`, repeat answering question 1. again.
+    1. Consider the sequential trigger `2'b01→2'b11→2'b11`
+        a. How many states are needed in total? 
+        b. How many additional registers are required in the FPGA?
+        c. Will the Trojan be triggered? Turn in a screenshot of the GAO window.
+    1. When the condition is `2'b01→2'b11→2'b10`, will the Trojan be triggered? Turn in a screenshot of the GAO window.
+    1. Find another sequence of three 2-bit values that will trigger the Trojan.  What is the sequence? Turn in a screenshot of the GAO window.
 
 
 ## What to Submit
