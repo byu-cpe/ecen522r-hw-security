@@ -55,14 +55,14 @@ You have been provided several 12 Verilog files related to the DES implementatio
 
 ### Part I: Implement DES 
 1. Create a subdirectory in your folder, called `part1`. 
-1. Within this, create a new GOWIN project called `part1` with top module called `top`, that instantiates the `des` module from `des.v` file.  
+1. Within this, create a new GOWIN project called `part1` with top module called `top`, that instantiates the `des` module from `des.v` file.  See the [Creating Projects section on the GOWIN Tutorial page]({% link _pages/gowin_tutorial.md %}#creating-projects) for instructions on creating a new project. 
     * There are two modules inside this file: `des` and `des_o`. 
     * `des_o` contains the DES implementation, and `des` is the wrapper top module that instantiates `des_o`. 
     * Plaintext and key are given in `des`. 
     * There is a RAM module called `ram1` instantiated, which is a 64-bit wide, 32-word deep RAM. It will store all the encryption results of the 16 rounds. 
     * Refer to the appendix for starting this project. 
-1. Compile and program the FPGA.
-1. Use the Gowin Analyzer Oscilloscope (GAO) to view the DES encryption. 
+1. [Compile]({% link _pages/gowin_tutorial.md %}#compiling-the-fpga-bitstream) and [program the FPGA]({% link _pages/gowin_tutorial.md %}#programming-the-fpga-with-the-programmer-tool).
+1. Use the [Gowin Analyzer Oscilloscope (GAO)]({% link _pages/gowin_tutorial.md %}#the-gowin-analyzer-oscilloscope-gao) to view the DES encryption. 
     * The encryption process happens repeatedly, so you can use GAO to view the signals repeatedly performing the encryption; however, after the first encryption cycle (which happens very fast, before you can start capture with GAO), the result in the RAM should not change.
     * If you look at `des.v`, you will see the clock is being slowed down by 50x, resulting in a 1MHz clock. You may want to clock the logic analyzer using this slower clock signal so that you are not viewing the same data repeatedly. You can shorten the capture window down to 32, which will be large enough to capture all rounds of encryption at least once. 
 1. **REPORT:** Answer the following questions in your report:
