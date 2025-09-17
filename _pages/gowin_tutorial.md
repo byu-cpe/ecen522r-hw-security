@@ -55,6 +55,9 @@ the files inside src directory (including all `.v` files and the `.cst` file). C
 
    If this succeeds, you should have a bitstream (`*.fs` file) generated in the `impl/pnr` directory of your project.
 
+1. After Place & Route, you can view the resource usage by opening the *Place & Route Report*. Within the *Resource* table, the number of logic elements used is shown as *Logic*, and the number of flip-flops used is shown as *Register*.
+
+
 ## Programming the FPGA with the Programmer Tool
 
 There are two ways to program the FPGA: 
