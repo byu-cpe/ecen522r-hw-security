@@ -97,7 +97,7 @@ You have been provided several 12 Verilog files related to the DES implementatio
     * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
 1. **REPORT:** Answer the following questions in your report:
-    1. Consider the sequential trigger `2'b01→2'b11→2'b11`
+    1. Consider the sequential trigger `2'b01→2'b11→2'b01`
         a. How many states are needed in total? 
         b. How many additional registers are required in the FPGA?
         c. Will the Trojan be triggered? Turn in a screenshot of the GAO window.
