@@ -101,7 +101,7 @@ You have been provided several 12 Verilog files related to the DES implementatio
         a. How many states are needed in total? 
         b. How many additional registers are required in the FPGA?
         c. Will the Trojan be triggered? Turn in a screenshot of the GAO window.
-    1. When the condition is `2'b01→2'b11→2'b10`, will the Trojan be triggered? Turn in a screenshot of the GAO window.
+    1. When the condition is `2'b01→2'b11→2'b10`, will the Trojan be triggered? Turn in a screenshot of the GAO window.  You can just modify your trojan to detect this pattern instead of the previous one (you don't need a trojan that detects both patterns).
     1. Find another sequence of three 2-bit values that will trigger the Trojan.  What is the sequence? Turn in a screenshot of the GAO window.
 
 
