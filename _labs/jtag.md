@@ -2,6 +2,6 @@
 layout: lab
 toc: true
 title: "JTAG Attacks"
-number: 6
+number: 8
 under_construction: true
 ---
