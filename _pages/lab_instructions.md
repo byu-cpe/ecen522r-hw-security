@@ -46,15 +46,15 @@ To submit your lab you will create a *tag* in your Git repository that points to
 
 Once you are done the lab, and want to submit, create a tag in your repo that the TAs can use to grade this lab, and then push like this:
 
-    git tag lab0_submission
-    git push origin lab0_submission
+    git tag lab_haha
+    git push origin lab_haha
 
-This tag will point to your most recent commit of whichever branch you are currently located on (so make sure all of your changes are committed before running this).  If you are not confident you did this correctly, you may want to go to a new directory (not in your repo) and run `git clone --branch lab1_submission <repo_url>` to clone your tag and verify that it builds and runs correctly.
+This tag will point to your most recent commit of whichever branch you are currently located on (so make sure all of your changes are committed before running this).  If you are not confident you did this correctly, you may want to go to a new directory (not in your repo) and run `git clone --branch lab_haha <repo_url>` to clone your tag and verify that it builds and runs correctly.
 
 If, after you create this tag, you want to change it (ie, re-submit your code), you can re-run the above commands and include the `--force` option to overwrite the tag, ie:
 
-    git tag --force lab0_submission
-    git push --force origin lab0_submission
+    git tag --force lab_haha
+    git push --force origin lab_haha
 
 
 For later labs, update the tag name appropriately:
