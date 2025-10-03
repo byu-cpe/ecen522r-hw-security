@@ -57,7 +57,8 @@ If, after you create this tag, you want to change it (ie, re-submit your code), 
     git push --force origin lab_haha
 
 
-For later labs, update the tag name appropriately:
+Please make sure your tab matches the lab directory names exactly:
+  * lab_haha
   * lab_bus_snooping
   * lab_modchip
   * lab_trojan_i
