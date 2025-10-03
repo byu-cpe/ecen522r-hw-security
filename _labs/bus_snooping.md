@@ -55,8 +55,8 @@ would you secure the communications? How would you then debug any issues that ar
 
 ## What to Submit
 
-Create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab1/report.pdf*,</span>
-and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
+Create a lab report document that contains the items mentioned above. Make sure to save this as `lab_bus_snooping/report.pdf`,
+and submit as tag `lab_bus_snooping`, using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 
 ## Acknowledgement

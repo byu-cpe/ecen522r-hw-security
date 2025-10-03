@@ -98,8 +98,8 @@ Enter the *SECRET* mode by connecting a signal generator to the appropriate sign
 
 ## What to Submit
 
-Commit your `main.c` and create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab_modchip/report.pdf*,</span>
-and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
+Commit your `main.c` and create a lab report document that contains the items mentioned above. Make sure to save this as `lab_modchip/report.pdf`,
+and submit as tag `lab_modchip`, using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 
 ## Acknowledgement

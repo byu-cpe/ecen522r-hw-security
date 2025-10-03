@@ -120,9 +120,9 @@ You have been provided several 12 Verilog files related to the DES implementatio
 
 ## What to Submit
 
-Make sure your submission tag on Github includes the following files:
-1. Your lab report (*lab_trojan_i/report.pdf*).
-1. The files for all three of your FPGA projects (*lab_trojan_i/part1/*, *lab_trojan_i/part2/*, and *lab_trojan_i/part3/*). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
+Make sure to tag your submission as `lab_trojan_i` on Github, and make sure it includes the following files:
+1. Your lab report (`lab_trojan_i/report.pdf`).
+1. The files for all three of your FPGA projects (`lab_trojan_i/part1/`, `lab_trojan_i/part2/`, and `lab_trojan_i/part3/`). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
 
 ## Acknowledgement
 
