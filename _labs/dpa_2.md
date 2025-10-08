@@ -1,8 +1,8 @@
 ---
 layout: lab
 toc: true
-title: "Side Channel: DPA (Part 2)"
-short_title: "Side Channel: DPA 2"
+title: "Side Channel: DPA (Part I)"
+short_title: "Side Channel: DPA II"
 number: 7
 under_construction: false
 ---
