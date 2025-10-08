@@ -65,3 +65,9 @@ exclude:
 
 plugins:
   - jekyll-sitemap
+
+kramdown:
+  input: 
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
