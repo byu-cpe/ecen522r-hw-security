@@ -127,3 +127,15 @@ Make sure to tag your submission as `lab_trojan_i` on Github, and make sure it i
 ## Acknowledgement
 
 These instructions were originally from Dr. Swarup Bhunia, University of Florida, and were modified for this class.
+
+## Helpful Tips
+
+### Verilog Bit Ordering (MSB/LSB)
+
+When working with Verilog, it's important to understand how bit ordering works, especially when defining vectors (buses) and referencing the most significant bit (MSB) and least significant bit (LSB).
+
+- **Vector Declaration:**
+    - `[31:0]` means the vector has 32 bits, with bit 31 as the MSB and bit 0 as the LSB. The left number is the MSB, and the right is the LSB.
+    - `[0:31]` is also a 32-bit vector, but now bit 0 is the MSB and bit 31 is the LSB. This is less common, but legal in Verilog.
+    - `[1:32]` is also a 32-bit vector, with bit 1 as the MSB and bit 32 as the LSB. This is also legal but less common.
+
