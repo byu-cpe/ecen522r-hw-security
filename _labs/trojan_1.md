@@ -107,7 +107,7 @@ You have been provided several 12 Verilog files related to the DES implementatio
 1. Create a new folder, `part3`, that contains another new Gowin project. Once again, copy over your working DES design from Part 1.
 1. Insert a sequential Trojan into the DES circuit. 
     * Use the same clock as the DES circuit. 
-    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
+    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values in consecutive clock cycles.
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
 1. **REPORT:** Answer the following questions in your report:
     1. Consider the sequential trigger `2'b01→2'b11→2'b01`
