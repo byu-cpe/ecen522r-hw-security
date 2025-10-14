@@ -16,9 +16,9 @@ order: 2
 |4 (Sep 22)     |                       | Supply Chain (Ch 6)                                           |           | Counterfeiting (Ch 6 con't)                                           | **Lab 2 Due 11:59pm** |
 |5 (Sep 29)     |                       | Secure IP (Ch 7)                                              |           | Side Channel Attacks (Ch 8)                                           | **Lab 3 Due 11:59pm** |
 |6 (Oct 6)      |                       | NO CLASS                                                      |           | Side Channel Attacks Cont'd (Ch 8)                                    | **Lab 4 Due 11:59pm** |
-|7 (Oct 13)     |                       | Physical Attacks (Ch 10)                                      |           | Microarchitecture Attacks (Spectre, Meltdown)                         | **Lab 5 Due 11:59pm** |
+|7 (Oct 13)     |                       | Side Channel Attacks Cont'd (Ch 8), Physical Attacks (Ch 10)  |           | Physical Attacks (Ch 10) Cont'd, DPA Lab Discussion                   | **Lab 5 Due 11:59pm** |
 |8 (Oct 20)     |                       | *Student Presentations*                                       |           | *Student Presentations*                                               | **Lab 6 Due 11:59pm** |
-|9 (Oct 27)     |                       | *Student Presentations*                                       |           | DPA Lab Discussion                                                    | **Lab 7 Due 11:59pm** |
+|9 (Oct 27)     |                       | *Student Presentations*                                       |           | Microarchitecture Attacks (Spectre, Meltdown)                         | **Lab 7 Due 11:59pm** |
 |10 (Nov 3)     |                       | HW Security Primitives (Ch 12)                                |           | Hardware Obfuscation (Ch 14)                                          | **Lab 8 Due 11:59pm** |
 |11 (Nov 10)    |                       | PCB Design & Test (Ch 4), PCB Attacks (Ch 11)                 |**Project Proposal Due 11:59pm**           | *Project Proposal Presentations*      | **Lab 9 Due 11:59pm** |
 |12 (Nov 17)    |                       | *Memory Safety and Corruption Attacks <span style="color:blue">(Stacey Son)</span>|| *ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>  |                       |
