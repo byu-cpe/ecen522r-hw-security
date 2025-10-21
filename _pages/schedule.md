@@ -24,7 +24,7 @@ order: 2
 |12 (Nov 17)    |                       | *Memory Safety and Corruption Attacks <span style="color:blue">(Stacey Son)</span>|| *ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>  |                       |
 |13 (Nov 24)    |                       | *CHERI Memory Safety <span style="color:blue">(Stacey Son)</span>|        | NO CLASS (Thanksgiving)                                              |                       |
 |14 (Dec 1)     |                       | No Class                                                      |           | No Class                                                              |                       |
-|15 (Dec 8)     |                       |  **LAST DAY OF CLASS**           |           |                                                                       |                       |
+|15 (Dec 8)     |                       | TBD **LAST DAY OF CLASS**           |           |                                                                       |                       |
 |16 (Dec 15)    |                       |                                                               | *Final Project Presentations*, 11am-2p, EB446<br>**Final Project Reports due, 11:59pm**                                            |                       |
 
 ## *Suggested Reading 
