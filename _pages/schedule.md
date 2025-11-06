@@ -20,7 +20,7 @@ order: 2
 |8 (Oct 20)     |                       | *Student Presentations*                                       |           | *Student Presentations*                                               | **Lab 6 Due 11:59pm** |
 |9 (Oct 27)     |                       | *Student Presentations*                                       |           | DPA Lab Discussion                                                    | **Lab 7 Due 11:59pm** |
 |10 (Nov 3)     |                       | HW Security Primitives (Ch 12)                                |           | Hardware Obfuscation (Ch 14)                                          | **Lab 8 Due 11:59pm** |
-|11 (Nov 10)    |                       | PCB Design & Test (Ch 4), PCB Attacks (Ch 11)                 |**Project Proposal Due 11:59pm**           | *Project Proposal Presentations*      | **Lab 9 Due 11:59pm** |
+|11 (Nov 10)    |                       | PCB Design & Test (Ch 4), PCB Attacks (Ch 11)                 |           | *Project Proposal Presentations* **Proposal Slides due at 12:30pm**   | **Lab 9 Due 11:59pm** |
 |12 (Nov 17)    |                       | *Memory Safety and Corruption Attacks <span style="color:blue">(Stacey Son)</span>|| *ARM PAC & MTE <span style="color:blue">(Stacey Son)</span>  |                       |
 |13 (Nov 24)    |                       | *CHERI Memory Safety <span style="color:blue">(Stacey Son)</span>|         | NO CLASS (Thanksgiving)                                              |                       |
 |14 (Dec 1)     |                       | Secure Enclaves                                               |           | *Final Project Presentations*                                         |                       |

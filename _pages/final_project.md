@@ -13,7 +13,7 @@ icon: fas fa-project-diagram
 The project for this course is very open-ended. You can do anything you want, as long as it has something
 to do with hardware security.
 
-**Your project must include some hand-on aspect.** This could be trying out an existing tool, writing some code, doing something new on the HaHa board, etc.  The project must go beyond just reading papers and writing a report. If you are unsure if your project meets this requirement, please ask.
+**Your project must include some hands-on aspect.** This could be trying out an existing tool, writing some code, doing something new on the HaHa board, etc.  The project must go beyond just reading papers and writing a report. If you are unsure if your project meets this requirement, please ask.
 
 Here are some ideas for projects:
  * Consult Stacey's website at <https://hwsec.son.org/> for topics.
@@ -26,9 +26,9 @@ You can work alone, or in a group of 2 or 3.  The more people in your group, the
 ## Project Deliverables 
 There will be three deliverables for the project.  
 
-1. **Project Proposal** In order to ensure that everyone has a suitable project, I am asking you provide a project proposal. You should indicate the project title and the members of your group (if you are not working on your own). You should also write enough to convince me that the project is interesting, is of a suitable difficulty, and that you have thought about some of the potential challenges.  In your proposal you should identify what components of your project present the greatest risk, and what contingencies you plan on in case you run into problems completing your project. This should be a few paragraphs, but not more than 1 page. Please send me the proposal via Teams.
+1. **Project Proposal** In order to ensure that everyone has a suitable project, I am asking you provide a project proposal.  Your proposal will be in the form a presentation, and slides must be submitted electronically via LearningSuite before the start of class.  There is no hard limit on number of slides, but I would expect about 3-5 slides.  In your slides you should indicate the project title and the members of your group (if you are not working on your own). You should also explain enough to convince me that the project is interesting, is of a suitable difficulty, and that you have thought about some of the potential challenges.  In your slides you should identify what components of your project present the greatest risk, and what contingencies you plan on in case you run into problems completing your project. 
 
-1. **Presentation** An interim class presentation where you present the current progress of your project. In this presentation, you will describe the problem you are trying to solve, any relevant previous work, and your approach.  You should have some results to present.  Presentations should be 8-9 minutes for single presenters and 15-17 minutes for groups of 2.
+1. **Presentation** A class presentation where you present your project. In this presentation, you will describe the problem you are trying to solve, any relevant previous work, and your approach.  You should have some results to present.  Presentations should be 10 minutes for single presenters and 18 minutes for groups of 2.
 
 2. **Final Technical Report**  This should be prepared in IEEE conference format (10pt, two columns), with a 4 page limit.  Introduce your problem, describe what you implemented, and include results.  Use figures where appropriate to help describe your project.  If your project is better presented in another format (jupyter notebook page, wiki page), discuss this with the instructor.  
 
