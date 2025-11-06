@@ -101,8 +101,8 @@ Programmer* in the menu bar.
 
 ## What to Submit
 
-Create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab0/report.pdf*,</span>
-and submit using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
+Create a lab report document that contains the items mentioned above. <span style="color:red">Make sure to save this as *lab_haha/report.pdf*,</span>
+and submit as tag `lab_haha`, using the [submission instructions]({% link _pages/lab_instructions.md %}#submission).
 
 ## Board Issues
 I will post any issues with boards here:

@@ -6,12 +6,25 @@ number: 3
 under_construction: false
 ---
 
-In this lab you will modify an encryption circuit to insert a hardware Trojan.  
+In this lab you will create a hardware system of your choice on the FPGA, and then insert a temperature-controlled Trojan into the system.
 
 
 ## Preliminary
 
-### Background
+### Trojan Taxonomy
+
+The taxonomy of Trojan circuits has been presented in various forms, and it continues to evolve as newer attacks and Trojan types are discovered. The figure below shows a high-level classification based on variations in activation mechanism and Trojan effect.
+
+<p align="center">
+  <img src="{% link media/labs/trojan_taxonomy.png %}" alt="Trojan Taxonomy" width="800"/>
+</p>    
+
+Based on the trigger condition, the hardware Trojans can be classified into analog or digital Trojans. The former is activated by analog conditions such as temperature, delay, or device aging effect, whereas the latter are triggered by some Boolean logic function. Digitally triggered Trojans can again be classified into combinational and sequential types.
+
+In terms of the payload, the Trojan can cause functional failure upon triggering or have a passive effect such as heating of the die or leaking of information. A Trojan can cause an ‘‘information leakage’’ attack, where secret information is leaked by a Trojan via a transmitted radio signal or serial data port. It could also involve a side-channel attack where the information is leaked through the power trace or through thermal radiation or through optical modulation of an output LED. Another type of Trojan payload would be an unauthorized alteration in system behavior.
+
+### Hard-to-Detect Circuit Behaviors
+
 Recently Intel announced a flaw in the implementation of the "TSX" instruction for its Haswell series of Central Processing Unit (CPU). This announcement came almost a year into the product’s lifecycle and almost three years since the beginnings of Haswell’s architecture was laid out. This is a legitimate mistake on Intel’s part – there is no foul play or trickery here, although it shows how difficult it is to fully test a complex design. 
 
 Researchers at the University of Massachusetts were able to modify an Intel Ivy Bridge processor – the series that Haswell replaced – and significantly impair the Random Number Generator (RNG) of the processor. They did this by modifying the silicon that made up actual transistor. Their modification is completely undetectable without a Scanning Electron Microscope (SEM) and a known good chip to authenticate against. If the security of the RNG is compromised then everything generated from it is also compromised, for example, private encryption keys.
@@ -94,23 +107,35 @@ You have been provided several 12 Verilog files related to the DES implementatio
 1. Create a new folder, `part3`, that contains another new Gowin project. Once again, copy over your working DES design from Part 1.
 1. Insert a sequential Trojan into the DES circuit. 
     * Use the same clock as the DES circuit. 
-    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
+    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values in consecutive clock cycles.
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
 1. **REPORT:** Answer the following questions in your report:
-    1. Consider the sequential trigger `2'b01→2'b11→2'b11`
+    1. Consider the sequential trigger `2'b01→2'b11→2'b01`
         a. How many states are needed in total? 
         b. How many additional registers are required in the FPGA?
         c. Will the Trojan be triggered? Turn in a screenshot of the GAO window.
-    1. When the condition is `2'b01→2'b11→2'b10`, will the Trojan be triggered? Turn in a screenshot of the GAO window.
+    1. When the condition is `2'b01→2'b11→2'b10`, will the Trojan be triggered? Turn in a screenshot of the GAO window.  You can just modify your trojan to detect this pattern instead of the previous one (you don't need a trojan that detects both patterns).
     1. Find another sequence of three 2-bit values that will trigger the Trojan.  What is the sequence? Turn in a screenshot of the GAO window.
 
 
 ## What to Submit
 
-Make sure your submission tag on Github includes the following files:
-1. Your lab report (*lab_trojan_i/report.pdf*).
-1. The files for all three of your FPGA projects (*lab_trojan_i/part1/*, *lab_trojan_i/part2/*, and *lab_trojan_i/part3/*). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
+Make sure to tag your submission as `lab_trojan_i` on Github, and make sure it includes the following files:
+1. Your lab report (`lab_trojan_i/report.pdf`).
+1. The files for all three of your FPGA projects (`lab_trojan_i/part1/`, `lab_trojan_i/part2/`, and `lab_trojan_i/part3/`). Make sure these contain your verilog source files (with changes to implement the Trojans), as well as your GAO files you used to test the Trojans.
 
 ## Acknowledgement
 
 These instructions were originally from Dr. Swarup Bhunia, University of Florida, and were modified for this class.
+
+## Helpful Tips
+
+### Verilog Bit Ordering (MSB/LSB)
+
+When working with Verilog, it's important to understand how bit ordering works, especially when defining vectors (buses) and referencing the most significant bit (MSB) and least significant bit (LSB).
+
+- **Vector Declaration:**
+    - `[31:0]` means the vector has 32 bits, with bit 31 as the MSB and bit 0 as the LSB. The left number is the MSB, and the right is the LSB.
+    - `[0:31]` is also a 32-bit vector, but now bit 0 is the MSB and bit 31 is the LSB. This is less common, but legal in Verilog.
+    - `[1:32]` is also a 32-bit vector, with bit 1 as the MSB and bit 32 as the LSB. This is also legal but less common.
+

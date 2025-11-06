@@ -25,6 +25,10 @@ The following are the steps to create a project on the GOWIN FPGA Designer softw
 
    <img src="{% link media/labs/gowin/part.png %}" width="700" alt="Part selection" />
 
+1. Open the *Project*->*Configuration* window, go to *Place & Route*->*Dual-Purpose Pin*, and check *Use SSPI as regular IO*.
+
+   <img src="{% link media/labs/gowin/dual_purpose_pin.png %}" width="550" alt="SSPI as IO" />
+
 1. Copy any files needed to your `src` directory.  
 
    For example, for *Part 1* of the *Trojan I* lab, copy all of the provided Verilog files into the `src` directory of your project.

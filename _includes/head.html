@@ -27,3 +27,15 @@
 <link rel="icon" type="image/png" sizes="16x16" href={{ "/icon/favicon-16x16.png" | relative_url }}> -->
 
 <script src="https://kit.fontawesome.com/624d595ebf.js" crossorigin="anonymous"></script>
+
+{% raw %}
+<script>
+    window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+    };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endraw %}
