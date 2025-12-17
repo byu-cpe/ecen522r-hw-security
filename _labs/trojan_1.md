@@ -107,7 +107,7 @@ You have been provided several 12 Verilog files related to the DES implementatio
 1. Create a new folder, `part3`, that contains another new Gowin project. Once again, copy over your working DES design from Part 1.
 1. Insert a sequential Trojan into the DES circuit. 
     * Use the same clock as the DES circuit. 
-    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values at the negative edge of the clock (see next section). 
+    * The trigger condition of the Trojan is when the least significant 2 bits of the F function output in order go through some order of three values in consecutive clock cycles.
     * Like Part II, when the Trojan is triggered, the LSB of the input key (NOT round keys) for the DES is inverted (ie. invert key56[0]). The key only needs to be inverted for one cycle, and can then revert to the original value.
 1. **REPORT:** Answer the following questions in your report:
     1. Consider the sequential trigger `2'b01→2'b11→2'b01`
@@ -127,3 +127,15 @@ Make sure to tag your submission as `lab_trojan_i` on Github, and make sure it i
 ## Acknowledgement
 
 These instructions were originally from Dr. Swarup Bhunia, University of Florida, and were modified for this class.
+
+## Helpful Tips
+
+### Verilog Bit Ordering (MSB/LSB)
+
+When working with Verilog, it's important to understand how bit ordering works, especially when defining vectors (buses) and referencing the most significant bit (MSB) and least significant bit (LSB).
+
+- **Vector Declaration:**
+    - `[31:0]` means the vector has 32 bits, with bit 31 as the MSB and bit 0 as the LSB. The left number is the MSB, and the right is the LSB.
+    - `[0:31]` is also a 32-bit vector, but now bit 0 is the MSB and bit 31 is the LSB. This is less common, but legal in Verilog.
+    - `[1:32]` is also a 32-bit vector, with bit 1 as the MSB and bit 32 as the LSB. This is also legal but less common.
+
