@@ -84,41 +84,41 @@ occupied, and these addresses will no longer hold their power-up states. Therefo
 sure they won’t be occupied by running your program.
 Print the values to the terminal over UART.
 Process your data with a custom script (eg. Python, etc.), according to the requirements given below and answer questions.
-1) Refer to the datasheet of the Microcontroller, what is the size of the SRAM in it?
-2) You should read the power-up states of the SRAM cells, i.e., the values are not changed by the program after power up. Can you tell
+1. Refer to the datasheet of the Microcontroller, what is the size of the SRAM in it?
+1. You should read the power-up states of the SRAM cells, i.e., the values are not changed by the program after power up. Can you tell
 what addresses will be occupied by your program? Find an address to use for your 64-byte signature? (Hint: for affected addresses, their
 contents will look “much less random” than the power-up values.)
-3) Indicate the address you used in your report.
-4) Commit your code for the Microcontroller (should be in lab2/part1/main.c).
-5) Copy the terminal output to your analysis script and perform analysis as described next.
-6) The first 64-byte value you collect is called signature S1. Include your S1 in the report in hex format.
-7) For S1, how many of the bits are 0 and how many are 1? What is the mean value? (eg. what percentage of bits are high?
+1. Indicate the address you used in your report.
+1. Commit your code for the Microcontroller (should be in `lab_puf_trng/part1/main.c`).
+1. Copy the terminal output to your analysis script and perform analysis as described next.
+1. The first 64-byte value you collect is called signature S1. Include your S1 in the report in hex format.
+1. For S1, how many of the bits are 0 and how many are 1? What is the mean value? (eg. what percentage of bits are high?
 
-Power OFF the whole board when taking different readings. Leave the board off for 30 seconds between readings. Power ON the
-board and read out the signature again. Repeat this two more times. These will be your signature S2, S3, and S4. Include thse in the
-report in hexadecimal format.
-9) Are S2, S3, and S4 the same with S1? For each new sample, how many bits are different? What is the fractional intra hamming
-distance? [6] (ie. percentage of bits that flipped)
-10) Use the compressed air to change the temperature of the microcontroller. Take another sample, S5. (Make sure to cool the
-microcontroller while powered off by blowing air for ~10-15 seconds, then turn it on).
-11) Again report how many bits are different than S1, and the fracitional intra hamming distance.
-12) Turn in your code for calculating the mean value and the intra hamming distance for this part.
-Part II SRAM as a TRNG
+   Power OFF the whole board when taking different readings. Leave the board off for 30 seconds between readings.
+   Power ON the board and read out the signature again. Repeat this two more times. These will be your signature S2, S3, and S4. 
+   Include these in the report in hexadecimal format.
+1. Are S2, S3, and S4 the same with S1? For each new sample, how many bits are different? What is the fractional intra hamming distance? (ie. percentage of bits that flipped)
+1. Use the compressed air to change the temperature of the microcontroller. Take another sample, S5. (Make sure to cool the microcontroller while powered off by blowing air for ~10-15 seconds, then turn it on).
+1. Again report how many bits are different than S1, and the fractional intra hamming distance.
+1. Turn in your code for calculating the mean value and the intra hamming distance for this part.
+
+### Part II SRAM as a TRNG
+
 In this part, you will modify your design for Part I so that it can work as a TRNG instead of a PUF. You can repeat your steps in Part I to collect
 multiple S1’s. See if all the bits of S1 will stay the same whenever you collect them and find if there are bits that act more randomly than others.
 Use these bits to generate an 8-bit TRNG.
-1) What type of SRAM cells is a good candidate for TRNG? Select 8 bits from them. Include their addresses in your report and explain the
+1. What type of SRAM cells is a good candidate for TRNG? Select 8 bits from them. Include their addresses in your report and explain the
 procedure that you used to find them.
-2) Write code to generate an 8-bit random number with your SRAM in the Microcontroller. Turn in your code.
+1. Write code to generate an 8-bit random number with your SRAM in the Microcontroller. Turn in your code.
 
 
 ## What to Submit
 
-Make sure your submission tag on Github includes the following files:
-1. Your lab report (*lab2/report.pdf*).
-1. Your code to print your SRAM PUF (*lab2/part1/main.c*).
-1. Your analysis of the SRAM PUF (some Python or other code in *lab2/part1/*)
-1. Your code to print your TRNG output (*lab2/part2/main.c*).
+Tag your submission as `lab_puf_trng` and make sure to commit:
+1. Your lab report (`lab_puf_trng/report.pdf`).
+1. Your code to print your SRAM PUF (`lab_puf_trng/part1/main.c`).
+1. Your analysis of the SRAM PUF (some Python or other code in `lab_puf_trng/part1/`)
+1. Your code to print your TRNG output (`lab_puf_trng/part2/main.c`).
 
 ## Helpful Tips
 
